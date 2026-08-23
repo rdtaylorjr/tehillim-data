@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyarrow pandas
+      - run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          import pandas as pd
+          import pyarrow.parquet as pq
+
+          failures = []
+          for path in Path(".").rglob("*.parquet"):
+              try:
+                  pq.read_table(path)
+              except Exception as exc:
+                  failures.append(f"{path}: {exc}")
+          for path in Path(".").rglob("*.csv"):
+              try:
+                  pd.read_csv(path)
+              except Exception as exc:
+                  failures.append(f"{path}: {exc}")
+          for path in Path(".").rglob("*.json"):
+              try:
+                  json.loads(path.read_text())
+              except Exception as exc:
+                  failures.append(f"{path}: {exc}")
+
+          if failures:
+              print("\n".join(failures))
+              sys.exit(1)
+          print("All Parquet/CSV/JSON files load cleanly.")
+          PY
+
+  version-bump:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: |
+          BASE_VERSION=$(git show "origin/${{ github.base_ref }}:package.json" | node -pe 'JSON.parse(require("fs").readFileSync(0,"utf8")).version')
+          HEAD_VERSION=$(node -pe 'require("./package.json").version')
+          if [ "$BASE_VERSION" = "$HEAD_VERSION" ]; then
+            echo "package.json's version must be bumped from $BASE_VERSION before merging."
+            exit 1
+          fi
+          echo "Version bumped: $BASE_VERSION -> $HEAD_VERSION"
