@@ -68,8 +68,6 @@ missing from it.
   `ui_*.json` files here
 * [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings): the embedding
   vectors scored here
-* [tehillim-logos](https://github.com/rdtaylorjr/tehillim-logos): the aligned Psalms parallelism
-  dataset behind the parallelism benchmark
 
 ## License
 
