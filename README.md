@@ -26,7 +26,8 @@ Hive-partitioned the same way as `tehillim-representations`'s `data/type=X/unit=
   `master` or `shuffle_control` stage: trajectory has no joined report and no order-shuffle-null
   control.
 * `ui_lexical.json`, `ui_semantic.json`, `ui_morphology.json`, `ui_syntax.json`: the family
-  payloads `tehillim-evaluate`'s `ui_export.export` produces, spliced into the results UI.
+  payloads `tehillim-evaluate`'s `ui_export.export` produces, rendered by
+  [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui)'s results page.
   The UI's family names (`morphology`, `syntax`) differ from `tehillim-representations`'s
   package/directory names (`morphological`, `phrase`) on purpose: the UI groups families by
   linguistic level for presentation, while this repo's directories mirror
@@ -66,6 +67,8 @@ missing from it.
 
 * [tehillim-evaluate](https://github.com/rdtaylorjr/tehillim-evaluate): the benchmark code that
   produces this data
+* [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui): the results page that renders the
+  `ui_*.json` files here
 * [tehillim-representations](https://github.com/rdtaylorjr/tehillim-representations): the embedding
   vectors scored here
 
