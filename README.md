@@ -1,6 +1,6 @@
 # tehillim-data
 
-Benchmark result data produced by [tehillim-evaluate](https://github.com/rdtaylorjr/tehillim-evaluate),
+Benchmark result data produced by [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks),
 scoring the vectors from [tehillim-representations](https://github.com/rdtaylorjr/tehillim-representations)
 against Psalms parallelism and genre annotations. Kept in a separate repo from the code that
 produces it, since result parquet files run tens of megabytes each and bloat a code repo's clone
@@ -22,11 +22,11 @@ Hive-partitioned the same way as `tehillim-representations`'s `data/type=X/unit=
 * `benchmark=trajectory/family={lexical,semantic,morphological,phrase}/`: `stage=profiles`
   (per-model, per-psalm content/structural profiles and the pairwise distance Parquet derived from
   them), `stage=raw` (the pooled and per-genre genre-validation permutation test CSVs), `stage=ui`
-  (`ui_rows.json`/`ui_rows_by_genre.json`, `tehillim-evaluate`'s `export_ui_rows` output). No
+  (`ui_rows.json`/`ui_rows_by_genre.json`, `tehillim-benchmarks`'s `export_ui_rows` output). No
   `master` or `shuffle_control` stage: trajectory has no joined report and no order-shuffle-null
   control.
 * `ui_lexical.json`, `ui_semantic.json`, `ui_morphology.json`, `ui_syntax.json`: the family
-  payloads `tehillim-evaluate`'s `ui_export.export` produces, rendered by
+  payloads `tehillim-benchmarks`'s `ui_export.export` produces, rendered by
   [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui)'s results page.
   The UI's family names (`morphology`, `syntax`) differ from `tehillim-representations`'s
   package/directory names (`morphological`, `phrase`) on purpose: the UI groups families by
@@ -58,14 +58,14 @@ since they're generated data of the same kind, not a benchmark result.
 
 ## Regenerating
 
-Every file here is produced by scripts in `tehillim-evaluate`. See that repo's README for the
+Every file here is produced by scripts in `tehillim-benchmarks`. See that repo's README for the
 exact commands per benchmark. Scoring scripts cache by default, a script skips any model already
 present in the `--output` path, so pointing them back at this checkout only scores models
 missing from it.
 
 ## Family
 
-* [tehillim-evaluate](https://github.com/rdtaylorjr/tehillim-evaluate): the benchmark code that
+* [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks): the benchmark code that
   produces this data
 * [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui): the results page that renders the
   `ui_*.json` files here
