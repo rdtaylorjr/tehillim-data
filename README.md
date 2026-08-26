@@ -25,13 +25,14 @@ Hive-partitioned the same way as `tehillim-embeddings`'s `data/domain=X/unit=Y/c
   (`ui_rows.json`/`ui_rows_by_genre.json`, `tehillim-benchmarks`'s `export_ui_rows` output). No
   `master` or `shuffle_control` stage: trajectory has no joined report and no order-shuffle-null
   control.
-* `ui_lexical.json`, `ui_semantic.json`, `ui_morphology.json`, `ui_syntax.json`: the domain
-  payloads `tehillim-benchmarks`'s `ui_export.export` produces, rendered by
-  [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui)'s results page. The UI's domain names
-  (`morphology`, `syntax`) match `tehillim-embeddings`'s own `domain=`/`src/` naming for the data
-  that actually produced them. `ui_export.export`'s shuffle-control exclusion (`build_domain_data`)
-  strips every `_shuffleNN`-suffixed model from all six of a domain's UI tables, so none of these
-  files ever carry the order-shuffle-null variants as if they were real, rankable models.
+
+The domain payloads `ui_export.export` produces are published to
+[tehillim-react](https://github.com/rdtaylorjr/tehillim-react) rather than stored here: one core
+file per domain plus a per-metric file for the per-genre trajectory rows, which the site fetches
+only when that view is opened. Their domain names (`morphology`, `syntax`) match
+`tehillim-embeddings`'s `domain=`/`src/` naming for the data that produced them, and
+`build_domain_data`'s shuffle-control exclusion strips every `_shuffleNN`-suffixed model from all
+six tables, so no payload carries an order-shuffle-null variant as a rankable model.
 
 `domain=morphology` and `domain=syntax` have no `stage=shuffle_control`: their order-shuffle-null
 variants (`construction=*_shuffleNN` in `tehillim-embeddings`) are scored as ordinary rows in
@@ -71,8 +72,8 @@ Dataset, used with permission. Full citation in
 
 * [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks): the benchmark code that
   produces this data
-* [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui): the results page that renders the
-  `ui_*.json` files here
+* [tehillim-react](https://github.com/rdtaylorjr/tehillim-react): the results site, which carries
+  and renders the domain payloads
 * [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings): the embedding
   vectors scored here
 
