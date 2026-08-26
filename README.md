@@ -60,6 +60,13 @@ exact commands per benchmark. Scoring scripts cache by default, a script skips a
 present in the `--output` path, so pointing them back at this checkout only scores models
 missing from it.
 
+## Data sources
+
+The parallelism and genre classifications reflected in this repo's benchmark outputs (`parallel_*`
+BHSA features and the genre-classification data) are derived from the Logos Psalms Explorer
+Dataset, used with permission. Full citation in
+[tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks)'s README.
+
 ## Family
 
 * [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks): the benchmark code that
