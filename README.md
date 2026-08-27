@@ -20,16 +20,20 @@ Hive-partitioned the same way as `tehillim-embeddings`'s `data/domain=X/unit=Y/c
   (per-pair detail Parquet), `stage=master` (the joined final report), `stage=shuffle_control`
   (order-shuffle-null control CSV, where present).
 * `benchmark=trajectory/domain={lexical,semantic,morphology,syntax}/`: `stage=profiles`
-  (per-model, per-psalm content/structural profiles and the pairwise distance Parquet derived from
-  them), `stage=raw` (the pooled and per-genre genre-validation permutation test CSVs), `stage=ui`
+  (the pairwise distance Parquet, plus per-model profile shards that `compute_profiles.py` uses to
+  resume an interrupted run; `domain=syntax` carries the distance Parquet alone, its shards having
+  been written under a superseded model naming), `stage=raw` (the pooled and per-genre
+  genre-validation permutation test CSVs), `stage=ui`
   (`ui_rows.json`/`ui_rows_by_genre.json`, `tehillim-benchmarks`'s `export_ui_rows` output). No
   `master` or `shuffle_control` stage: trajectory has no joined report and no order-shuffle-null
   control.
 
 The domain payloads `ui_export.export` produces are published to
-[tehillim-react](https://github.com/rdtaylorjr/tehillim-react) rather than stored here: one core
+[tehillim](https://github.com/rdtaylorjr/tehillim) rather than stored here: one core
 file per domain plus a per-metric file for the per-genre trajectory rows, which the site fetches
-only when that view is opened. Their domain names (`morphology`, `syntax`) match
+only when that view is opened. The per-model detail payloads `build_detail_json` produces from
+`stage=detail` and `stage=profiles` are larger again and are served from object storage, so they
+are stored in neither repo. Their domain names (`morphology`, `syntax`) match
 `tehillim-embeddings`'s `domain=`/`src/` naming for the data that produced them, and
 `build_domain_data`'s shuffle-control exclusion strips every `_shuffleNN`-suffixed model from all
 six tables, so no payload carries an order-shuffle-null variant as a rankable model.
@@ -72,7 +76,7 @@ Dataset, used with permission. Full citation in
 
 * [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks): the benchmark code that
   produces this data
-* [tehillim-react](https://github.com/rdtaylorjr/tehillim-react): the results site, which carries
+* [tehillim](https://github.com/rdtaylorjr/tehillim): the results site, which carries
   and renders the domain payloads
 * [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings): the embedding
   vectors scored here
