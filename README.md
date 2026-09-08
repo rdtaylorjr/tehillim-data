@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository stores the materialized outputs of the Tehillim evaluation pipeline. It preserves benchmark tables, observation-level records, trajectory profiles, and interface payloads produced by [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks) from representations in [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings). It separates large derived artifacts from the code that creates and interprets them.
+This repository stores the materialized outputs of the Tehillim evaluation pipeline. It preserves benchmark tables, observation-level records, trajectory profiles, and interface payloads produced by [tehillim-benchmark](https://github.com/rdtaylorjr/tehillim-benchmark) from representations in [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings). It separates large derived artifacts from the code that creates and interprets them.
 
 ## Data
 
@@ -22,7 +22,7 @@ The source vectors, licensed Logos-derived annotations, and source genre CSV do 
 
 ## Methodology
 
-The repository does not calculate metrics. Its partition layout records the analytic provenance of results produced in `tehillim-benchmarks`: the benchmark task, representation domain, and processing stage remain visible in each path. Raw files retain outputs from individual procedures. Detail files retain the observations from which a result can be inspected. Master files reshape compatible measures into long and wide analytic tables. Profile shards enable interrupted trajectory runs to resume without recomputing completed model and psalm combinations.
+The repository does not calculate metrics. Its partition layout records the analytic provenance of results produced in `tehillim-benchmark`: the benchmark task, representation domain, and processing stage remain visible in each path. Raw files retain outputs from individual procedures. Detail files retain the observations from which a result can be inspected. Master files reshape compatible measures into long and wide analytic tables. Profile shards enable interrupted trajectory runs to resume without recomputing completed model and psalm combinations.
 
 This structure distinguishes a result table from the observations and decisions that produced it. A row remains conditioned by the BHSA linguistic database, Logos-derived labels, representation construction, selection rules, and inferential procedure documented in the producing repositories. Partition names expose these conditions without converting them into claims about Hebrew poetic form.
 
@@ -42,7 +42,7 @@ A future release should include a versioned manifest with checksums, upstream co
 
 ## Reproducibility
 
-Regeneration requires the matching revision of `tehillim-benchmarks`, the relevant `tehillim-embeddings` vectors, permitted Logos-derived annotation access, the runtime genre CSV, and a compatible Python environment. Scoring scripts write deterministic partition names and retain model and variant identifiers. Cached scripts can skip model files already recorded in a target output path. A reproducible release also requires a manifest that maps each public payload and report to exact input and code revisions. Re-running into a new checkout is safer for an audit because it leaves the checked results unchanged.
+Regeneration requires the matching revision of `tehillim-benchmark`, the relevant `tehillim-embeddings` vectors, permitted Logos-derived annotation access, the runtime genre CSV, and a compatible Python environment. Scoring scripts write deterministic partition names and retain model and variant identifiers. Cached scripts can skip model files already recorded in a target output path. A reproducible release also requires a manifest that maps each public payload and report to exact input and code revisions. Re-running into a new checkout is safer for an audit because it leaves the checked results unchanged.
 
 ## Installation
 
