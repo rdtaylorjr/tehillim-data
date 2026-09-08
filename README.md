@@ -6,17 +6,20 @@ This repository stores the materialized outputs of the Tehillim evaluation pipel
 
 ## Data
 
-The current checkout contains 322 CSV, Parquet, and JSON result artifacts totaling about 4.45 GB. The count excludes repository metadata such as `package.json`. Paths use Hive-style partitions:
+The current checkout contains 390 CSV, Parquet, and JSON result artifacts totaling about 1.74 GB. The count excludes repository metadata such as `package.json`. Paths use Hive-style partitions:
 
 ```
-benchmark={parallelism,genre,trajectory}/domain={lexical,semantic,morphology,syntax}/stage={...}/
+analysis=benchmark/benchmark={parallelism,genre,trajectory}/domain={lexical,semantic,morphological,syntactic}/stage={...}/
+analysis={cluster,compare}/domain={lexical,semantic,morphological,syntactic}/stage={...}/
+analysis={cluster,compare}/stage={raw,ui}/
+reference/stage=ui/
 ```
 
-`parallelism` and `genre` each provide `raw` CSV outputs, `detail` observation-level Parquet records, and `master` long and wide reports. Where available, `shuffle_control` holds summaries of the lexical order-shuffle control. Parallelism detail records preserve group identifiers, annotation type and signature, source and target node spans, similarity, calibration, and directional ranks. Genre detail records preserve psalm pairs, source genre labels, similarity, and calibrated scores. The morphology parallelism detail file contains 263,070 rows, while its long master report contains 18,099 metric rows.
+`parallelism` and `genre` each provide `raw` CSV outputs, `detail` observation-level Parquet records, and `master` long and wide reports. `shuffle_control` holds order-shuffle control summaries for the lexical, morphological, and syntactic domains, 48 files across the two benchmarks, with no counterpart under `semantic`. Parallelism detail records preserve group identifiers, annotation type and signature, source and target node spans, similarity, calibration, and directional ranks. Genre detail records preserve psalm pairs, source genre labels, similarity, and calibrated scores. The morphological parallelism detail file contains 63,270 rows, while its long master report contains 8,436 metric rows.
 
-The partition inventory contains 41 parallelism, 34 genre, 246 trajectory, and one archived-control artifact. The parallelism master reports contain 766 model rows across the four domains. The genre master reports contain 222. These counts describe stored rows, including historical and intermediate results. They do not identify the subset exported to the public interface.
+The benchmark inventory contains 64 parallelism, 56 genre, and 246 trajectory artifacts. The remaining 24 sit under `analysis=cluster`, `analysis=compare`, and `reference`. The parallelism master reports carry 226 distinct models across the four domains. The genre master reports carry 222. These counts describe stored results, including historical and intermediate outputs. They do not identify the subset exported to the public interface.
 
-`trajectory` stores per-model profile shards and a `trajectory_distances.parquet` file for each representation domain, alongside raw validation tables and JSON summaries for the interface. The morphology trajectory-distance table contains 628,482 psalm-pair rows and five distance measures: content, self-similarity structure, adjacent similarity, step magnitude, and turning angle.
+`trajectory` stores per-model profile shards and a `trajectory_distances.parquet` file for each representation domain, alongside raw validation tables and JSON summaries for the interface. The morphological trajectory-distance table contains 628,482 psalm-pair rows and five distance measures: content, self-similarity structure, adjacent similarity, step magnitude, and turning angle.
 
 The source vectors, licensed Logos-derived annotations, and source genre CSV do not reside here. These outputs therefore preserve the computation's observable products rather than a complete archival substitute for its inputs.
 
@@ -28,15 +31,13 @@ This structure distinguishes a result table from the observations and decisions 
 
 ## Results
 
-The result corpus covers parallelism retrieval, genre discrimination, and trajectory analyses over lexical, morphology, syntax, and semantic representation domains. The master tables carry model identity, text variant, scope, metric source, value, and both Benjamini-Hochberg and Benjamini-Yekutieli adjusted values. The corpus makes it possible to compare metrics, inspect individual observations, and identify missing domains or stages.
+The result corpus covers parallelism retrieval, genre discrimination, and trajectory analyses over lexical, morphological, syntactic, and semantic representation domains. The master tables carry model identity, text variant, scope, metric source, value, and both Benjamini-Hochberg and Benjamini-Yekutieli adjusted values. The corpus makes it possible to compare metrics, inspect individual observations, and identify missing domains or stages.
 
-The current public interface reports 148 parallelism variants and 222 genre variants. This checkout contains the 222 genre models, while its 766 parallelism models include a larger set of stored outputs. Paths and schemas provide no release mapping between the interface payloads and these files. A stored result can therefore be inspected, yet its presence alone does not establish that the interface displays it.
+The current public interface reports 148 parallelism variants and 222 genre variants. This checkout contains the 222 genre models, while its 226 parallelism models include a larger set of stored outputs. Paths and schemas provide no release mapping between the interface payloads and these files. A stored result can therefore be inspected, yet its presence alone does not establish that the interface displays it.
 
 ## Limitations
 
-The artifacts are derived data. Their values cannot be read independently of the code version, input vector files, external annotations, and run configuration that generated them. The repository does not yet carry a versioned manifest that fixes this artifact count and file inventory. Sampled Parquet schemas carry pandas serialization metadata only, with no source revision, input fingerprint, configuration identifier, or generation time. Some stages are intentionally absent. Trajectory has no joined master report or dedicated order-shuffle summary. Morphology and syntax shuffle variants were scored as ordinary rows in some historical outputs, while the lexical domain stores dedicated control summaries. The morphology sparse signature-trigram representation is absent from the dense-only scoring outputs in this checkout.
-
-The `archive=shuffle_control_n30` partition records an earlier 30-draw lexical control. It remains available for provenance and should not be combined with the current 1,000-draw control as though both had the same inferential resolution.
+The artifacts are derived data. Their values cannot be read independently of the code version, input vector files, external annotations, and run configuration that generated them. The repository does not yet carry a versioned manifest that fixes this artifact count and file inventory. Sampled Parquet schemas carry pandas serialization metadata only, with no source revision, input fingerprint, configuration identifier, or generation time. Some stages are intentionally absent. Trajectory has no joined master report or dedicated order-shuffle summary. The lexical, morphological, and syntactic domains each store a dedicated order-shuffle control summary, while `semantic` stores none.
 
 A future release should include a versioned manifest with checksums, upstream code and corpus revisions, input identifiers, seeds, and configuration values for every partition. Until then, a path establishes the type of result and does not establish a complete provenance record for a particular numerical value.
 
@@ -56,7 +57,7 @@ Read a master table with PyArrow:
 import pyarrow.parquet as pq
 
 table = pq.read_table(
-    "benchmark=parallelism/domain=morphology/stage=master/model_metrics_long.parquet"
+    "analysis=benchmark/benchmark=parallelism/domain=morphological/stage=master/model_metrics_long.parquet"
 )
 print(table.schema)
 ```
