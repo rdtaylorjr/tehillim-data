@@ -1,78 +1,85 @@
 # tehillim-data
 
-Benchmark result data produced by [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks),
-scoring the vectors from [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings)
-against Psalms parallelism and genre annotations. Kept in a separate repo from the code that
-produces it, since result parquet files run tens of megabytes each and bloat a code repo's clone
-size and history.
+## Overview
 
-## Layout
+This repository stores the materialized outputs of the Tehillim evaluation pipeline. It preserves benchmark tables, observation-level records, trajectory profiles, and interface payloads produced by [tehillim-benchmark](https://github.com/rdtaylorjr/tehillim-benchmark) from representations in [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings). It separates large derived artifacts from the code that creates and interprets them.
 
-Hive-partitioned the same way as `tehillim-embeddings`'s `data/domain=X/unit=Y/construction=Z/`:
-`benchmark={parallelism,genre,trajectory}/domain={lexical,semantic,morphology,syntax}/stage=W/...`.
+## Data
 
-* `benchmark=parallelism/domain={lexical,semantic,morphology,syntax}/`: `stage=raw`
-  (retrieval-pair AP/AUC/calibration CSVs), `stage=detail` (per-observation Parquet export),
-  `stage=master` (the joined final Parquet report), `stage=shuffle_control` (order-shuffle-null
-  control CSV, where present).
-* `benchmark=genre/domain={lexical,semantic,morphology,syntax}/`: `stage=raw`
-  (genre-discrimination AP/AUC/calibration CSVs, per-genre breakdown, bootstrap CIs), `stage=detail`
-  (per-pair detail Parquet), `stage=master` (the joined final report), `stage=shuffle_control`
-  (order-shuffle-null control CSV, where present).
-* `benchmark=trajectory/domain={lexical,semantic,morphology,syntax}/`: `stage=profiles`
-  (per-model, per-psalm content/structural profiles and the pairwise distance Parquet derived from
-  them), `stage=raw` (the pooled and per-genre genre-validation permutation test CSVs), `stage=ui`
-  (`ui_rows.json`/`ui_rows_by_genre.json`, `tehillim-benchmarks`'s `export_ui_rows` output). No
-  `master` or `shuffle_control` stage: trajectory has no joined report and no order-shuffle-null
-  control.
-* `ui_lexical.json`, `ui_semantic.json`, `ui_morphology.json`, `ui_syntax.json`: the domain
-  payloads `tehillim-benchmarks`'s `ui_export.export` produces, rendered by
-  [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui)'s results page. The UI's domain names
-  (`morphology`, `syntax`) match `tehillim-embeddings`'s own `domain=`/`src/` naming for the data
-  that actually produced them. `ui_export.export`'s shuffle-control exclusion (`build_domain_data`)
-  strips every `_shuffleNN`-suffixed model from all six of a domain's UI tables, so none of these
-  files ever carry the order-shuffle-null variants as if they were real, rankable models.
+The current checkout contains 390 CSV, Parquet, and JSON result artifacts totaling about 1.74 GB. The count excludes repository metadata such as `package.json`. Paths use Hive-style partitions:
 
-`domain=morphology` and `domain=syntax` have no `stage=shuffle_control`: their order-shuffle-null
-variants (`construction=*_shuffleNN` in `tehillim-embeddings`) are scored as ordinary rows in
-`stage=raw`/`stage=master` alongside the real embeddings, rather than through a dedicated
-`order_shuffle_result` summary script, so `delta_order`/p are computed ad hoc from those rows
-rather than persisted as their own file. `domain=morphology` also excludes the `morph_signature`
-trigram construction (`tehillim-embeddings`' sparse `node_id`/`indices`/`values` schema),
-since the scoring scripts that produced this checkout's `domain=morphology` data read only the
-dense schema; `domain=syntax` has no sparse construction to exclude (its largest signature-trigram
-family, dim 14,424, is stored dense throughout).
+```
+analysis=benchmark/benchmark={parallelism,genre,trajectory}/domain={lexical,semantic,morphological,syntactic}/stage={...}/
+analysis={cluster,compare}/domain={lexical,semantic,morphological,syntactic}/stage={...}/
+analysis={cluster,compare}/stage={raw,ui}/
+reference/stage=ui/
+```
 
-`stage=master`'s Parquet files no longer duplicate `stage=detail`'s (the detail Parquet files used
-to be copied into `master/` as well; `build_master_report.py` in both `parallelism` and `genre`
-stopped doing that once `detail` and `master` sat side by side in the same checkout, since copying
-them added no benefit `detail/` didn't already provide).
+`parallelism` and `genre` each provide `raw` CSV outputs, `detail` observation-level Parquet records, and `master` long and wide reports. `shuffle_control` holds order-shuffle control summaries for the lexical, morphological, and syntactic domains, 48 files across the two benchmarks, with no counterpart under `semantic`. Parallelism detail records preserve group identifiers, annotation type and signature, source and target node spans, similarity, calibration, and directional ranks. Genre detail records preserve psalm pairs, source genre labels, similarity, and calibrated scores. The morphological parallelism detail file contains 63,270 rows, while its long master report contains 8,436 metric rows.
 
-The order-shuffle-null control's *embeddings* (the shuffled vectors themselves, not the CSV
-summary) live in `tehillim-embeddings`'s
-`data/domain=lexical/unit=homograph/construction=*_shuffleNN/`, alongside the main lexical data,
-since they're generated data of the same kind, not a benchmark result.
+The benchmark inventory contains 64 parallelism, 56 genre, and 246 trajectory artifacts. The remaining 24 sit under `analysis=cluster`, `analysis=compare`, and `reference`. The parallelism master reports carry 226 distinct models across the four domains. The genre master reports carry 222. These counts describe stored results, including historical and intermediate outputs. They do not identify the subset exported to the public interface.
 
-## Regenerating
+`trajectory` stores per-model profile shards and a `trajectory_distances.parquet` file for each representation domain, alongside raw validation tables and JSON summaries for the interface. The morphological trajectory-distance table contains 628,482 psalm-pair rows and five distance measures: content, self-similarity structure, adjacent similarity, step magnitude, and turning angle.
 
-Every file here is produced by scripts in `tehillim-benchmarks`. See that repo's README for the
-exact commands per benchmark. Scoring scripts cache by default, a script skips any model already
-present in the `--output` path, so pointing them back at this checkout only scores models
-missing from it.
+The source vectors, licensed Logos-derived annotations, and source genre CSV do not reside here. These outputs therefore preserve the computation's observable products rather than a complete archival substitute for its inputs.
 
-## Family
+## Methodology
 
-* [tehillim-benchmarks](https://github.com/rdtaylorjr/tehillim-benchmarks): the benchmark code that
-  produces this data
-* [tehillim-ui](https://github.com/rdtaylorjr/tehillim-ui): the results page that renders the
-  `ui_*.json` files here
-* [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings): the embedding
-  vectors scored here
+The repository does not calculate metrics. Its partition layout records the analytic provenance of results produced in `tehillim-benchmark`: the benchmark task, representation domain, and processing stage remain visible in each path. Raw files retain outputs from individual procedures. Detail files retain the observations from which a result can be inspected. Master files reshape compatible measures into long and wide analytic tables. Profile shards enable interrupted trajectory runs to resume without recomputing completed model and psalm combinations.
+
+This structure distinguishes a result table from the observations and decisions that produced it. A row remains conditioned by the BHSA linguistic database, Logos-derived labels, representation construction, selection rules, and inferential procedure documented in the producing repositories. Partition names expose these conditions without converting them into claims about Hebrew poetic form.
+
+## Results
+
+The result corpus covers parallelism retrieval, genre discrimination, and trajectory analyses over lexical, morphological, syntactic, and semantic representation domains. The master tables carry model identity, text variant, scope, metric source, value, and both Benjamini-Hochberg and Benjamini-Yekutieli adjusted values. The corpus makes it possible to compare metrics, inspect individual observations, and identify missing domains or stages.
+
+The current public interface reports 148 parallelism variants and 222 genre variants. This checkout contains the 222 genre models, while its 226 parallelism models include a larger set of stored outputs. Paths and schemas provide no release mapping between the interface payloads and these files. A stored result can therefore be inspected, yet its presence alone does not establish that the interface displays it.
+
+## Limitations
+
+The artifacts are derived data. Their values cannot be read independently of the code version, input vector files, external annotations, and run configuration that generated them. The repository does not yet carry a versioned manifest that fixes this artifact count and file inventory. Sampled Parquet schemas carry pandas serialization metadata only, with no source revision, input fingerprint, configuration identifier, or generation time. Some stages are intentionally absent. Trajectory has no joined master report or dedicated order-shuffle summary. The lexical, morphological, and syntactic domains each store a dedicated order-shuffle control summary, while `semantic` stores none.
+
+A future release should include a versioned manifest with checksums, upstream code and corpus revisions, input identifiers, seeds, and configuration values for every partition. Until then, a path establishes the type of result and does not establish a complete provenance record for a particular numerical value.
+
+## Reproducibility
+
+Regeneration requires the matching revision of `tehillim-benchmark`, the relevant `tehillim-embeddings` vectors, permitted Logos-derived annotation access, the runtime genre CSV, and a compatible Python environment. Scoring scripts write deterministic partition names and retain model and variant identifiers. Cached scripts can skip model files already recorded in a target output path. A reproducible release also requires a manifest that maps each public payload and report to exact input and code revisions. Re-running into a new checkout is safer for an audit because it leaves the checked results unchanged.
+
+## Installation
+
+No installation is required to inspect the data. Parquet readers such as PyArrow, DuckDB, or pandas can read the tables.
+
+## Usage
+
+Read a master table with PyArrow:
+
+```python
+import pyarrow.parquet as pq
+
+table = pq.read_table(
+    "analysis=benchmark/benchmark=parallelism/domain=morphological/stage=master/model_metrics_long.parquet"
+)
+print(table.schema)
+```
+
+## References
+
+Logos Bible Software. [*Psalms Explorer Dataset*](https://www.logos.com/product/54188/psalms-explorer-dataset).
+
+Andersen, Francis I., and A. Dean Forbes. “Problems in Taxonomy and Lemmatization.” Pages 37-50 in *Proceedings of the First International Colloquium: Bible and the Computer: The Text*. Paris-Geneva: Champion-Slatkine, 1986.
+
+Bosman, Hendrik Jan, and Constantijn J. Sikkel. “A Discourse on Method: Basic Parameters of Computer-Assisted Linguistic Analysis on Word Level.” Pages 85-113 in *Corpus Linguistics and Textual History: A Computer-Assisted Interdisciplinary Approach to the Peshitta*. Assen: Van Gorcum, 2006.
+
+Moreau, Luc, and Simon Miles, eds. 2013. [*PROV-DM: The PROV Data Model*](https://www.w3.org/TR/prov-dm/). W3C Recommendation.
+
+Roorda, Dirk, Christiaan Erwich, Cody Kingham, and SeHoon Park. 2023. [*ETCBC/bhsa*](https://github.com/ETCBC/bhsa).
+
+Roorda, Dirk. [“The Hebrew Bible as Data: Laboratory, Sharing, Experiences.”](https://doi.org/10.48550/arXiv.1501.01866) 2015.
+
+Roorda, Dirk. [“Text-Fabric: Handling Biblical Data with IKEA Logistics.”](https://doi.org/10.7146/hn.v5i2.142740) *HIPHIL Novum* 5.2 (2019): 126-135.
+
+Wilkinson, Mark D., Michel Dumontier, I. J. Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. [“The FAIR Guiding Principles for Scientific Data Management and Stewardship.”](https://doi.org/10.1038/sdata.2016.18) *Scientific Data* 3: 160018.
 
 ## License
 
-MIT
-
-## Author
-
-* [Russell D. Taylor Jr.](mailto:rdtaylorjr@gatech.edu)
+MIT. The Logos-derived annotation source and BHSA data have separate terms of use.
