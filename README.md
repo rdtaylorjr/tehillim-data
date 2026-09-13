@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository stores the materialized outputs of the Tehillim evaluation pipeline. It preserves benchmark tables, observation-level records, trajectory profiles, and interface payloads produced by [tehillim-benchmark](https://github.com/rdtaylorjr/tehillim-benchmark) from representations in [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings). It separates large derived artifacts from the code that creates and interprets them.
+This repository stores materialized outputs of the Tehillim evaluation pipeline: benchmark tables, observation-level records, and interface payloads produced by [tehillim-benchmark](https://github.com/rdtaylorjr/tehillim-benchmark) from representations in [tehillim-embeddings](https://github.com/rdtaylorjr/tehillim-embeddings).
 
 ## Data
 
-The current checkout contains 390 CSV, Parquet, and JSON result artifacts totaling about 1.74 GB. The count excludes repository metadata such as `package.json`. Paths use Hive-style partitions:
+Paths use Hive-style partitions:
 
 ```
 analysis=benchmark/benchmark={parallelism,genre,trajectory}/domain={lexical,semantic,morphological,syntactic}/stage={...}/
@@ -15,17 +15,21 @@ analysis={cluster,compare}/stage={raw,ui}/
 reference/stage=ui/
 ```
 
-`parallelism` and `genre` each provide `raw` CSV outputs, `detail` observation-level Parquet records, and `master` long and wide reports. `shuffle_control` holds order-shuffle control summaries for the lexical, morphological, and syntactic domains, 48 files across the two benchmarks, with no counterpart under `semantic`. Parallelism detail records preserve group identifiers, annotation type and signature, source and target node spans, similarity, calibration, and directional ranks. Genre detail records preserve psalm pairs, source genre labels, similarity, and calibrated scores. The morphological parallelism detail file contains 63,270 rows, while its long master report contains 8,436 metric rows.
+`parallelism` and `genre` each provide `raw` CSV outputs, `detail` observation-level Parquet records, and `master` long and wide reports. `shuffle_control` holds one order-shuffle control summary per registered family of the lexical, morphological, and syntactic domains, with no counterpart under `semantic`. Parallelism detail records preserve group identifiers, annotation type and signature, source and target node spans, similarity, calibration, and directional ranks. Genre detail records preserve psalm pairs, source genre labels, similarity, and calibrated scores. The morphological parallelism detail file contains 63,270 rows, while its long master report contains 8,436 metric rows.
 
-The benchmark inventory contains 64 parallelism, 56 genre, and 246 trajectory artifacts. The remaining 24 sit under `analysis=cluster`, `analysis=compare`, and `reference`. The parallelism master reports carry 226 distinct models across the four domains. The genre master reports carry 222. These counts describe stored results, including historical and intermediate outputs. They do not identify the subset exported to the public interface.
+The reports include historical and intermediate outputs. Their presence does not identify the subset
+exported to the public interface.
 
-`trajectory` stores per-model profile shards and a `trajectory_distances.parquet` file for each representation domain, alongside raw validation tables and JSON summaries for the interface. The morphological trajectory-distance table contains 628,482 psalm-pair rows and five distance measures: content, self-similarity structure, adjacent similarity, step magnitude, and turning angle.
+`trajectory` stores distance tables, validation tables, and JSON summaries for the interface. The morphological trajectory-distance table contains 628,482 psalm-pair rows and five distance measures: content, self-similarity structure, adjacent similarity, step magnitude, and turning angle.
 
 The source vectors, licensed Logos-derived annotations, and source genre CSV do not reside here. These outputs therefore preserve the computation's observable products rather than a complete archival substitute for its inputs.
 
 ## Methodology
 
-The repository does not calculate metrics. Its partition layout records the analytic provenance of results produced in `tehillim-benchmark`: the benchmark task, representation domain, and processing stage remain visible in each path. Raw files retain outputs from individual procedures. Detail files retain the observations from which a result can be inspected. Master files reshape compatible measures into long and wide analytic tables. Profile shards enable interrupted trajectory runs to resume without recomputing completed model and psalm combinations.
+The repository does not calculate metrics. Its partition layout records the benchmark task,
+representation domain, and processing stage of results produced in `tehillim-benchmark`. Raw files
+retain outputs from individual procedures. Detail files retain the observations from which a result
+can be inspected. Master files reshape compatible measures into long and wide analytic tables.
 
 This structure distinguishes a result table from the observations and decisions that produced it. A row remains conditioned by the BHSA linguistic database, Logos-derived labels, representation construction, selection rules, and inferential procedure documented in the producing repositories. Partition names expose these conditions without converting them into claims about Hebrew poetic form.
 
@@ -37,13 +41,25 @@ The current public interface reports 148 parallelism variants and 222 genre vari
 
 ## Limitations
 
-The artifacts are derived data. Their values cannot be read independently of the code version, input vector files, external annotations, and run configuration that generated them. The repository does not yet carry a versioned manifest that fixes this artifact count and file inventory. Sampled Parquet schemas carry pandas serialization metadata only, with no source revision, input fingerprint, configuration identifier, or generation time. Some stages are intentionally absent. Trajectory has no joined master report or dedicated order-shuffle summary. The lexical, morphological, and syntactic domains each store a dedicated order-shuffle control summary, while `semantic` stores none.
+The artifacts are derived data. Their values cannot be read independently of the code version, input
+vector files, external annotations, and run configuration that generated them. The repository has no
+release manifest that maps each public payload to an exact input and code revision. Sampled Parquet
+schemas carry pandas serialization metadata only, with no source revision, input fingerprint,
+configuration identifier, or generation time. Trajectory has no joined master report or dedicated
+order-shuffle summary. The lexical, morphological, and syntactic domains each store a dedicated
+order-shuffle control summary, while `semantic` stores none.
 
 A future release should include a versioned manifest with checksums, upstream code and corpus revisions, input identifiers, seeds, and configuration values for every partition. Until then, a path establishes the type of result and does not establish a complete provenance record for a particular numerical value.
 
 ## Reproducibility
 
-Regeneration requires the matching revision of `tehillim-benchmark`, the relevant `tehillim-embeddings` vectors, permitted Logos-derived annotation access, the runtime genre CSV, and a compatible Python environment. Scoring scripts write deterministic partition names and retain model and variant identifiers. Cached scripts can skip model files already recorded in a target output path. A reproducible release also requires a manifest that maps each public payload and report to exact input and code revisions. Re-running into a new checkout is safer for an audit because it leaves the checked results unchanged.
+Regeneration requires the matching revision of `tehillim-benchmark`, the relevant
+`tehillim-embeddings` vectors, permitted Logos-derived annotation access, the runtime genre CSV, and
+a compatible Python environment. Scoring scripts write deterministic partition names and retain
+model and variant identifiers. A Snakemake driver coordinates declared embeddings, benchmark, and
+interface outputs. A reproducible release requires a manifest that maps each public payload and
+report to exact input and code revisions. Re-running into a new checkout is safer for an audit
+because it leaves the checked results unchanged.
 
 ## Installation
 

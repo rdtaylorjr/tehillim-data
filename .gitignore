@@ -8,3 +8,11 @@ Thumbs.db
 
 *claude*
 AGENTS.md
+
+*.md
+!README.md
+
+# Driver state
+.snakemake/
+logs/
+aws/.last-instance
