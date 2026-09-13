@@ -15,5 +15,4 @@ AGENTS.md
 # Driver state
 .snakemake/
 logs/
-!PIPELINE.md
 aws/.last-instance
