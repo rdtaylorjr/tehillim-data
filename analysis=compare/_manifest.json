@@ -1,0 +1,49 @@
+{
+  "blocked": {},
+  "complete": [
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/stage=raw/psalms.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=lexical/stage=raw/similarity.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=lexical/stage=raw/methods.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=morphological/stage=raw/similarity.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=morphological/stage=raw/methods.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=semantic/stage=raw/similarity.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=semantic/stage=raw/methods.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=syntactic/stage=raw/similarity.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/domain=syntactic/stage=raw/methods.parquet",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim/public/data/compare.json"
+  ],
+  "expected_cells": 6,
+  "finished": "2026-09-15T20:19:52.938214+00:00",
+  "missing": [],
+  "parity": {
+    "lexical": {
+      "datasets": 120,
+      "scored": 120,
+      "skipped": [],
+      "stale": [],
+      "unexplained": []
+    },
+    "morphological": {
+      "datasets": 97,
+      "scored": 97,
+      "skipped": [],
+      "stale": [],
+      "unexplained": []
+    },
+    "semantic": {
+      "datasets": 43,
+      "scored": 43,
+      "skipped": [],
+      "stale": [],
+      "unexplained": []
+    },
+    "syntactic": {
+      "datasets": 79,
+      "scored": 79,
+      "skipped": [],
+      "stale": [],
+      "unexplained": []
+    }
+  },
+  "repository_revision": "bb7fbd6c1e18d50f0ac6e302f22b2fc3be49679e"
+}

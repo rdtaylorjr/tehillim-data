@@ -1,0 +1,23 @@
+{
+  "cell": "parallelism.lexical.master",
+  "code_hash": "cdc3229a07d9e0a13cec27c85eb42421ab6658cfe4ac5612d996449bccdcc8b8",
+  "duration_s": 10.726172,
+  "inputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=detail/baseline_detail.parquet": "88873dc1e750cbe23ef79cb1b21b9abfa8168b9ecd4922f13d60637c639d3a63",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=detail/pair_detail.parquet": "a4009183f0123e4ad9ae450ebd44764a86d6bc24d83ef8495c3890189e24b32a",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=detail/type_vs_baseline.parquet": "f9b830605a441ed8bd269a22f3fc7734ec1bbd932a948be14e36e4b705bb321c",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=raw/calibration.csv": "c0e9499e9ca37d897d5bef001bff1ee3e083b1067e767461476801861b76ac03",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=raw/retrieval.csv": "d694575055ab41e6185cecd9688568314bf53f45d348fb835de9fd2f5a39ec6c"
+  },
+  "outputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=master/model_metrics_by_type.parquet": "9987e60be967363fd217bca0a9f5dab95d649c4ff790eecb446ccd35a4a365ba",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=master/model_metrics_long.parquet": "d9bd69812461f6f99e89ad4c707edfe227279966d7ced41ac2e7011675b57317",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=master/model_metrics_overall.parquet": "6262925e8b90f55b92d01061093c52220f664b3cd662bf5c33fed82003dc7c96"
+  },
+  "parameters": {
+    "args": "--retrieval-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=raw/retrieval.csv --calibration-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=raw/calibration.csv --detail-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=detail --output-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=master"
+  },
+  "repository_revision": "d74dccad110733201665834c32f654f4362b8671",
+  "rule": "cell__parallelism_lexical_master",
+  "started": "2026-09-13T19:53:26.022916+00:00"
+}

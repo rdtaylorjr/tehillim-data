@@ -1,0 +1,21 @@
+{
+  "cell": "genre.syntactic.master",
+  "code_hash": "e3c3e32bf6948b92f6a741caaee3554af2563a4ae90e2bab04433d2c6241888b",
+  "duration_s": 0.356855,
+  "inputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=detail/genre_pair_detail.parquet": "78bf100e5a52af39d696969f5fb31183bb01864c0e22cb08e24b9021715e6d47",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=detail/genre_summary.parquet": "27971258763e3610e940f544378da324f468b67098e290beff2a339c0d49849d",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=raw/bootstrap_cis.csv": "88c9da3e9973479522b5281e029efce81053891921b1e34abc537e2a215dee03",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=raw/calibrated.csv": "561fd4520f48cad5648c91f43b5a33a7b1c87d5bb744aaa0699ee1132ab4ff67"
+  },
+  "outputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=master/genre_metrics_long.parquet": "49696dc54c575df86f51fdd19da58d3919704fb50d31f397ad30488380a2da4f",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=master/genre_metrics_wide.parquet": "474f735bf3b715facb5c9ed5ac8a75ff046e593ef8a8b14948daf94fd208196b"
+  },
+  "parameters": {
+    "args": "--summary-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=raw/calibrated.csv --bootstrap-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=raw/bootstrap_cis.csv --detail-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=detail --output-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=master"
+  },
+  "repository_revision": "4c770869b2e632e74f49b24b159e4fbdbe37c3a0",
+  "rule": "cell__genre_syntactic_master",
+  "started": "2026-09-13T21:03:54.860240+00:00"
+}

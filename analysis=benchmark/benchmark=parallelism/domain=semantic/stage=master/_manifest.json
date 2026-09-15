@@ -1,0 +1,23 @@
+{
+  "cell": "parallelism.semantic.master",
+  "code_hash": "cdc3229a07d9e0a13cec27c85eb42421ab6658cfe4ac5612d996449bccdcc8b8",
+  "duration_s": 4.001305,
+  "inputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=detail/baseline_detail.parquet": "c3bcefd04d480c982e3239a4141b17075b498ac7483075d9650dd231ad9c8a95",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=detail/pair_detail.parquet": "bd1871cb9515a215d9e81ecacbb90c45fc9003420f22f544f8279c840f0edf60",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=detail/type_vs_baseline.parquet": "4223b76acf91d7c188a54dffaf1594888bafd05070549ec50d71125859a91f0f",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=raw/calibration.csv": "0a0045f337f599ae428d28858849e0fb9f0c8924caf225f5089d311a0b933b08",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=raw/retrieval.csv": "3a78993432b8632a4ed324d069c6fbf084357704b7597cfcdf3c2194a2a583f1"
+  },
+  "outputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=master/model_metrics_by_type.parquet": "30d3105000e6fd3dc7f076fc844119d393484d6b47673619154678268131c424",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=master/model_metrics_long.parquet": "3001864c389acabae7d09063cb7c69b9a340f9b250fdabfa260abd1ac0f341a7",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=master/model_metrics_overall.parquet": "be65f65b2f2a76b35d33aced1f0a871c230a07933370b4e7c7d3e6969293db0a"
+  },
+  "parameters": {
+    "args": "--retrieval-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=raw/retrieval.csv --calibration-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=raw/calibration.csv --detail-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=detail --output-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=semantic/stage=master"
+  },
+  "repository_revision": "d74dccad110733201665834c32f654f4362b8671",
+  "rule": "cell__parallelism_semantic_master",
+  "started": "2026-09-13T20:01:53.261381+00:00"
+}

@@ -52,7 +52,7 @@ INSTANCE_ID=$(aws ec2 run-instances --region "$REGION" \
   --block-device-mappings "[{\"DeviceName\":\"/dev/sda1\",\"Ebs\":{\"VolumeSize\":$VOLUME_GB,\"VolumeType\":\"gp3\"}}]" \
   --user-data "$USER_DATA" \
   --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=tehillim-driver}]' \
-  "${MARKET_OPTIONS[@]}" \
+  ${MARKET_OPTIONS[@]+"${MARKET_OPTIONS[@]}"} \
   --query 'Instances[0].InstanceId' --output text)
 
 aws ec2 wait instance-running --region "$REGION" --instance-ids "$INSTANCE_ID"

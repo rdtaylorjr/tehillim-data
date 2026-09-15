@@ -1,0 +1,21 @@
+{
+  "cell": "genre.semantic.master",
+  "code_hash": "e3c3e32bf6948b92f6a741caaee3554af2563a4ae90e2bab04433d2c6241888b",
+  "duration_s": 0.329922,
+  "inputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=detail/genre_pair_detail.parquet": "177b629a6af08f0a95df94ce91b1bb5711bf8352d092b29d65b8ff48cddae59d",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=detail/genre_summary.parquet": "e355f7bb90fb6fd2c85d1414f830c2c38e0b7098cb38e934064a54ae565739f3",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=raw/bootstrap_cis.csv": "8212823a95e8d031a0abea09f8b76e5d89c9730b36df1077683b0a1e9f25f508",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=raw/calibrated.csv": "327d365785e08583d0f76e3f9410e32e2ccd99bd3765d9e4e68893bde2e894cd"
+  },
+  "outputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=master/genre_metrics_long.parquet": "20d9c3e93e00169206f6fc5015308a3d05079305e4941ffe372c01a244574482",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=master/genre_metrics_wide.parquet": "c360457f25eda5daf81ebe81094045efb25ef53f61046268c0772c68ccc205f4"
+  },
+  "parameters": {
+    "args": "--summary-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=raw/calibrated.csv --bootstrap-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=raw/bootstrap_cis.csv --detail-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=detail --output-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=semantic/stage=master"
+  },
+  "repository_revision": "4c770869b2e632e74f49b24b159e4fbdbe37c3a0",
+  "rule": "cell__genre_semantic_master",
+  "started": "2026-09-13T21:03:07.061887+00:00"
+}

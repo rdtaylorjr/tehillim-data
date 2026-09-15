@@ -1,0 +1,19 @@
+{
+  "cell": "trajectory.morphological.validate",
+  "code_hash": "bd9950d563b8f1396f25f3a116fb340e6a89ee5a1a68e67d2be3cb4f15328a7b",
+  "duration_s": 858.704499,
+  "inputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=morphological/stage=raw/trajectory_distances.parquet": "4ab79381fbba5dec6218e33c49defb7f09005c0ff1841faa6f93797fc021e727",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-logos/source/psalms-browser.csv": "c404bf3340689919e223aeeabe22b189f0da95e5fdd75398e293ea4824c073de"
+  },
+  "outputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=morphological/stage=raw/validate_against_genre.csv": "f300f40ae39bb97cb1a246ace71dcbf92522e900df17228ee116c7a2a2eda3fc",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=morphological/stage=raw/validate_against_genre_by_genre.csv": "39f3f73052ef49565c3ee0c55860a484f701a15df10dd89d6aedc45026d3df34"
+  },
+  "parameters": {
+    "args": "/Users/rdtaylorjr/Developer/tehillim/tehillim-logos/source/psalms-browser.csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=morphological/stage=raw/trajectory_distances.parquet --output /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=morphological/stage=raw/validate_against_genre.csv --breakdown-output /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=morphological/stage=raw/validate_against_genre_by_genre.csv --workers 8"
+  },
+  "repository_revision": "4c770869b2e632e74f49b24b159e4fbdbe37c3a0",
+  "rule": "cell__trajectory_morphological_validate",
+  "started": "2026-09-14T17:30:24.083093+00:00"
+}

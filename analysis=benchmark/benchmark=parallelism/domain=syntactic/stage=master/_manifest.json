@@ -1,0 +1,23 @@
+{
+  "cell": "parallelism.syntactic.master",
+  "code_hash": "cdc3229a07d9e0a13cec27c85eb42421ab6658cfe4ac5612d996449bccdcc8b8",
+  "duration_s": 4.546056,
+  "inputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=detail/baseline_detail.parquet": "5f7eb218ce0c5719b3c222278b1fe4f0f5d08b4c98efa43338394e8319356a48",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=detail/pair_detail.parquet": "1e6a2ca29466a38d8e7ecd19fb71388d94012c0768f9c0411e574c7641f32950",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=detail/type_vs_baseline.parquet": "486fc2d2109abe1a764c865efc33e35c356bf2028a946bd25b8fa5dd48743fed",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=raw/calibration.csv": "e874f606cf50326e968fa6c2150d539af2713a09f432e684c7e738fe1465382d",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=raw/retrieval.csv": "bc088c834fa1dc1da8ff300e8f2b49131b110cb6b9f0d304142dddfd7705e0cf"
+  },
+  "outputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=master/model_metrics_by_type.parquet": "e05be05b31e40da0013f320da03b8cee60790d44fd1b9ccedda3e85c0316379d",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=master/model_metrics_long.parquet": "117bf74bf974bcb63c5c8e1e9d7534691509472411d4cd36a5bd70c79138f990",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=master/model_metrics_overall.parquet": "f5c8431c7edb33c4ca949657b9ca15b6c581d8c952eacd10c5cee0e9b4a02e99"
+  },
+  "parameters": {
+    "args": "--retrieval-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=raw/retrieval.csv --calibration-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=raw/calibration.csv --detail-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=detail --output-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=syntactic/stage=master"
+  },
+  "repository_revision": "d74dccad110733201665834c32f654f4362b8671",
+  "rule": "cell__parallelism_syntactic_master",
+  "started": "2026-09-13T19:54:10.647494+00:00"
+}
