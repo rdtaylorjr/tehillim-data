@@ -1,0 +1,17 @@
+{
+  "compare.psalms": {
+    "cell": "compare.psalms",
+    "code_hash": "901f2ad3d8cb7c383b83726c6dbdd771b472afa1cc0e754036989c805ed62644",
+    "duration_s": 32.863634,
+    "inputs": {},
+    "outputs": {
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=compare/stage=raw/psalms.parquet": "b67063a5e48581167b14016e2a7f4b484e2c8763226869aeacc216348e6845c8"
+    },
+    "parameters": {
+      "args": "psalms --checkout latest --data-root /Users/rdtaylorjr/Developer/tehillim/tehillim-data"
+    },
+    "repository_revision": "bb7fbd6c1e18d50f0ac6e302f22b2fc3be49679e",
+    "rule": "cell__compare_psalms",
+    "started": "2026-09-15T20:08:38.092844+00:00"
+  }
+}
