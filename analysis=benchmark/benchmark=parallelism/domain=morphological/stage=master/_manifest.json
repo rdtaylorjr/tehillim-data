@@ -1,0 +1,23 @@
+{
+  "cell": "parallelism.morphological.master",
+  "code_hash": "cdc3229a07d9e0a13cec27c85eb42421ab6658cfe4ac5612d996449bccdcc8b8",
+  "duration_s": 5.97257,
+  "inputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=detail/baseline_detail.parquet": "04434c87f944173da3934b0bf8ee8f784d628a1faac7d4a4037641f6ea80b482",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=detail/pair_detail.parquet": "cb7f7623f124a4cec808d044e16cd813a7055eb6178d142cd950030766eac9df",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=detail/type_vs_baseline.parquet": "25effe199ce26896b6c1fe5654b80a6bc7640ea67120a6e37110f7206a8e4dc1",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=raw/calibration.csv": "248186b843ea94390a9c4f0b62f469a534bf593448e1f9a2dae0389038c41b1e",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=raw/retrieval.csv": "17efb6fd79d3bcf7caae9aff10133ae141a25e17a6be33eadb934a4a90025534"
+  },
+  "outputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=master/model_metrics_by_type.parquet": "02887a1f99eddf60dfbbf5f3bb2368b1b43efc4da938a037e97d86b687722ea2",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=master/model_metrics_long.parquet": "a5a97c3144217d1e8ba2224feccfaa599ef6c0a21fbb07384570c4317b6e606a",
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=master/model_metrics_overall.parquet": "53acacf923b9b4277add898d4983460a80f1e327770d4fa54fac2281270b4a83"
+  },
+  "parameters": {
+    "args": "--retrieval-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=raw/retrieval.csv --calibration-csv /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=raw/calibration.csv --detail-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=detail --output-dir /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=morphological/stage=master"
+  },
+  "repository_revision": "d74dccad110733201665834c32f654f4362b8671",
+  "rule": "cell__parallelism_morphological_master",
+  "started": "2026-09-13T19:44:16.411167+00:00"
+}

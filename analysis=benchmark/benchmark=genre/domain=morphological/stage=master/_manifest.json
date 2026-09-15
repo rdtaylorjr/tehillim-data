@@ -1,0 +1,21 @@
+{
+  "cell": "genre.morphological.master",
+  "code_hash": "e3c3e32bf6948b92f6a741caaee3554af2563a4ae90e2bab04433d2c6241888b",
+  "duration_s": 0.41603,
+  "inputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=detail/genre_pair_detail.parquet": "cb69c8145c4605e17e4c22dccdc468fdd776503f833bb7a69fdb452235eca166",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=detail/genre_summary.parquet": "11a72ef012611be47a82d95f99808f966709d3a7f9aa8d2a378c934ac4bce9ef",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=raw/bootstrap_cis.csv": "6bb2b76ba4bd40ab1459a439dbc9e1df064cbb2052d3de00f7804a4838f8e337",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=raw/calibrated.csv": "505189c84138929e581bbdc36352df97a4b77183c818cf93a728d9c777a06ea8"
+  },
+  "outputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=master/genre_metrics_long.parquet": "de97d02478aa63408e7e769ca2c9698c9cc143d5c16789473e0e98c4f66dc2eb",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=master/genre_metrics_wide.parquet": "fadd4ae4aa7098701ebe2db3773a4c94c23e3576ca8d7636b921eb3fc56def85"
+  },
+  "parameters": {
+    "args": "--summary-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=raw/calibrated.csv --bootstrap-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=raw/bootstrap_cis.csv --detail-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=detail --output-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=morphological/stage=master"
+  },
+  "repository_revision": "4c770869b2e632e74f49b24b159e4fbdbe37c3a0",
+  "rule": "cell__genre_morphological_master",
+  "started": "2026-09-13T21:03:11.344614+00:00"
+}

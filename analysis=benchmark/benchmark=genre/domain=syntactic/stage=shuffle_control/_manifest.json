@@ -1,0 +1,25 @@
+{
+  "cell": "genre.syntactic.shuffle.clause_signature_1_2_3gram_psalm",
+  "code_hash": "bc7ce3e116be63f4f0f8654f7d0360160753ce00b46bc4e9d8de57ff362bd009",
+  "duration_s": 3120.581848,
+  "inputs": {
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+    "/home/ubuntu/tehillim/tehillim-embeddings/data/domain=syntactic/level=clause/feature=signature/construction=1_2_3gram_psalm/part-0.parquet": "62861b07334908a901c9ccaedb86d71f094db2179b94632386f8bf2a69ad3c4a",
+    "/home/ubuntu/tehillim/tehillim-logos/source/psalms-browser.csv": "c404bf3340689919e223aeeabe22b189f0da95e5fdd75398e293ea4824c073de"
+  },
+  "outputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv": "5a74e7802e5e18ead746295294ea51434f862e307910311a5df2699a1e29de5a"
+  },
+  "parameters": {
+    "args": "/home/ubuntu/tehillim/tehillim-logos/source/psalms-browser.csv /home/ubuntu/tehillim/tehillim-embeddings/data/domain=syntactic/level=clause/feature=signature/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/clause/signature/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv --workers 8"
+  },
+  "repository_revision": "d74dccad110733201665834c32f654f4362b8671",
+  "rule": "cell__genre_syntactic_shuffle_clause_signature_1_2_3gram_psalm",
+  "started": "2026-09-13T19:19:31.721849+00:00"
+}

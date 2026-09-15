@@ -1,0 +1,24 @@
+{
+  "cell": "parallelism.lexical.shuffle.homograph_icf_position4",
+  "code_hash": "f002c09d87bf9474b90b198ed88336f995ca248864fb8679f2bb8e1a3ca85a84",
+  "duration_s": 1531.959836,
+  "inputs": {
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+    "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+    "/home/ubuntu/tehillim/tehillim-embeddings/data/domain=lexical/unit=homograph/construction=icf_position4/part-0.parquet": "d55397d01819310f6250fe2e3780417b39e16c73f7425570b88765a9f733191c"
+  },
+  "outputs": {
+    "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=shuffle_control/homograph_icf_position4.csv": "b0d7ec841d378af78bf418c16abed7ea5205c40d941ef466554c63649b5563c7"
+  },
+  "parameters": {
+    "args": "/home/ubuntu/tehillim/tehillim-embeddings/data/domain=lexical/unit=homograph/construction=icf_position4/part-0.parquet --family lexical/homograph/icf_position4 --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=parallelism/domain=lexical/stage=shuffle_control/homograph_icf_position4.csv --workers 8"
+  },
+  "repository_revision": "d74dccad110733201665834c32f654f4362b8671",
+  "rule": "cell__parallelism_lexical_shuffle_homograph_icf_position4",
+  "started": "2026-09-13T19:35:33.639299+00:00"
+}

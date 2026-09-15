@@ -1,0 +1,19 @@
+{
+  "cell": "trajectory.lexical.ui_rows",
+  "code_hash": "c487cdceab3bbc3fb4ce065c1769e611ca6dd15b40c6e534b7fdc9c511e90d59",
+  "duration_s": 0.213357,
+  "inputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=raw/validate_against_genre.csv": "773f15bf64731c26f7087e1e48d529766c1e51df256ceaa28383176b412abfb3",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=raw/validate_against_genre_by_genre.csv": "ebbff1de376610059ed5b1807f9f9c05908c91dc3c5d78bf4174480984ad09e5"
+  },
+  "outputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=ui/ui_rows.json": "28fedb4a9870a359a83a5316aeed6ce1393ff69031adcd3c6ba794c9c0737c98",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=ui/ui_rows_by_genre.json": "c4363423439cb9713f073f1efe3390449fa1717aa56906991eee49905f149b78"
+  },
+  "parameters": {
+    "args": "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=raw/validate_against_genre.csv --breakdown-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=raw/validate_against_genre_by_genre.csv --output /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=ui/ui_rows.json --breakdown-output /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=lexical/stage=ui/ui_rows_by_genre.json"
+  },
+  "repository_revision": "4c770869b2e632e74f49b24b159e4fbdbe37c3a0",
+  "rule": "cell__trajectory_lexical_ui_rows",
+  "started": "2026-09-14T17:20:52.681248+00:00"
+}

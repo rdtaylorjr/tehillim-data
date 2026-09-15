@@ -1,0 +1,21 @@
+{
+  "cell": "genre.lexical.master",
+  "code_hash": "e3c3e32bf6948b92f6a741caaee3554af2563a4ae90e2bab04433d2c6241888b",
+  "duration_s": 0.536487,
+  "inputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=detail/genre_pair_detail.parquet": "44ee7fc6f39cc4babaaaf7163826de94395aaeda3860c663d82c2214f01b8ed1",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=detail/genre_summary.parquet": "9a7c8a9a2002a1bebc3d7b883dec25e2ef2db34a2d80b88c72ada5f8b3651d95",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=raw/bootstrap_cis.csv": "562c2272a9fe18f06ec4642f823c59ac2ba9d2c179d3bb3adba5ee10de0e4858",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=raw/calibrated.csv": "0464dda2e96ced7f266564f7d8381e3942025b756b0bacc734509720d0854f15"
+  },
+  "outputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=master/genre_metrics_long.parquet": "a9b7d27edc08fbd3fcb50c1164bfd503e549268cdd947718b3345390657466bd",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=master/genre_metrics_wide.parquet": "8a03c9abcf42bf17132c985048808071cb64317bb27127863afd8c6dfed7aa46"
+  },
+  "parameters": {
+    "args": "--summary-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=raw/calibrated.csv --bootstrap-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=raw/bootstrap_cis.csv --detail-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=detail --output-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/domain=lexical/stage=master"
+  },
+  "repository_revision": "4c770869b2e632e74f49b24b159e4fbdbe37c3a0",
+  "rule": "cell__genre_lexical_master",
+  "started": "2026-09-13T21:03:16.039196+00:00"
+}

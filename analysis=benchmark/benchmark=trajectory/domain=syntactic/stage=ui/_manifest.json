@@ -1,0 +1,19 @@
+{
+  "cell": "trajectory.syntactic.ui_rows",
+  "code_hash": "c487cdceab3bbc3fb4ce065c1769e611ca6dd15b40c6e534b7fdc9c511e90d59",
+  "duration_s": 0.133144,
+  "inputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=raw/validate_against_genre.csv": "400b0748e0872c46851abacccf30a32ed5afd30cbb10b91fdd8eb637eaff8988",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=raw/validate_against_genre_by_genre.csv": "5ea92f47c8aa1655650922f13f2f6be24cfa91ed7179b89dda8aee19116a745e"
+  },
+  "outputs": {
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=ui/ui_rows.json": "4eccf2efbe53f68e1066a4c762054de808a3f5378fd9defdafb8ef859771bba1",
+    "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=ui/ui_rows_by_genre.json": "871d8d37c72dc73c7bce91649c29e866781883191074d8af35ecbf4dc7f31bea"
+  },
+  "parameters": {
+    "args": "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=raw/validate_against_genre.csv --breakdown-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=raw/validate_against_genre_by_genre.csv --output /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=ui/ui_rows.json --breakdown-output /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=trajectory/domain=syntactic/stage=ui/ui_rows_by_genre.json"
+  },
+  "repository_revision": "4c770869b2e632e74f49b24b159e4fbdbe37c3a0",
+  "rule": "cell__trajectory_syntactic_ui_rows",
+  "started": "2026-09-14T05:36:23.501432+00:00"
+}
