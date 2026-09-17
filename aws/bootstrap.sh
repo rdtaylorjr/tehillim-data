@@ -27,7 +27,7 @@ sudo -u $RUN_USER -H env GITHUB_TOKEN="$GITHUB_TOKEN" ROOT="$ROOT" HOME_DIR="$HO
 export GHPERS="$GITHUB_TOKEN"
 mkdir -p "$ROOT" "$HOME_DIR/Developer/hebrew" "$HOME_DIR/text-fabric-data/github/rdtaylorjr/tehillim-logos/tf"
 cd "$ROOT"
-for repo in tehillim-embeddings tehillim-benchmark tehillim-data tehillim-logos tehillim-gunkel tehillim; do
+for repo in tehillim-embeddings tehillim-benchmark tehillim-compare tehillim-data tehillim-logos tehillim-gunkel tehillim; do
   [ -d "$repo" ] || git clone --depth 1 "https://$GITHUB_TOKEN@github.com/rdtaylorjr/$repo.git" "$repo"
 done
 
@@ -59,7 +59,7 @@ if [ -n "$SMOKE_RULES" ]; then
 else
   FORCE_RULES=""
   if [ -n "$FORCE_PATTERN" ]; then
-    FORCE_RULES=$($SNAKEMAKE --list-target-rules 2>/dev/null | grep -E "$FORCE_PATTERN" | tr '\n' ' ')
+    FORCE_RULES=$($SNAKEMAKE --list-target-rules 2>/dev/null | grep -E "$FORCE_PATTERN" | tr '\n' ' ' || true)
   fi
   if $SNAKEMAKE -j "$JOBS" --rerun-triggers params --keep-going \
        --config workers="$WORKERS_PER_CELL" ${FORCE_RULES:+--forcerun $FORCE_RULES} -- benchmark_all; then
