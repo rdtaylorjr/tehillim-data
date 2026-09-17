@@ -5,13 +5,14 @@ cd "$(dirname "$0")"
 
 : "${GITHUB_TOKEN:?set GITHUB_TOKEN to a token that can read the rdtaylorjr repositories}"
 : "${KEY_NAME:?set KEY_NAME to the EC2 key pair used for ssh}"
-# SMOKE=1 runs two real cells on a 4-vCPU instance to prove the environment before a full run.
+# SMOKE=1 runs only SMOKE_RULES (default: two real cells) on a 4-vCPU instance, nothing else.
 SMOKE="${SMOKE:-0}"
-SMOKE_RULES=""
 if [ "$SMOKE" = "1" ]; then
   INSTANCE_TYPE="${INSTANCE_TYPE:-c7i.xlarge}"
   WORKERS_PER_CELL="${WORKERS_PER_CELL:-4}"
-  SMOKE_RULES="benchmark_cell__parallelism_syntactic_baseline benchmark_cell__genre_lexical_gunkel_song_calibrated"
+  SMOKE_RULES="${SMOKE_RULES:-benchmark_cell__parallelism_syntactic_baseline benchmark_cell__genre_lexical_gunkel_song_calibrated}"
+else
+  SMOKE_RULES=""
 fi
 INSTANCE_TYPE="${INSTANCE_TYPE:-c7i.48xlarge}"
 MARKET="${MARKET:-spot}"
