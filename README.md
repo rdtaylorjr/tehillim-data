@@ -24,6 +24,10 @@ exported to the public interface.
 
 The source vectors, licensed Logos-derived annotations, and source genre CSV do not reside here. These outputs therefore preserve the computation's observable products rather than a complete archival substitute for its inputs.
 
+The benchmark and compare pipelines read the BHSA `half_verse` scope,
+`corpus=bhsa/unit=half_verse/`, from `tehillim-embeddings`. This keeps result rows tied to the
+corpus and node unit used by their source vectors.
+
 ## Methodology
 
 The repository does not calculate metrics. Its partition layout records the benchmark task,

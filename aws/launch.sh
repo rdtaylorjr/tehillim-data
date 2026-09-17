@@ -11,13 +11,15 @@ SMOKE_RULES=""
 if [ "$SMOKE" = "1" ]; then
   INSTANCE_TYPE="${INSTANCE_TYPE:-c7i.xlarge}"
   WORKERS_PER_CELL="${WORKERS_PER_CELL:-4}"
-  SMOKE_RULES="benchmark_cell__parallelism_syntactic_baseline benchmark_cell__genre_lexical_calibrated"
+  SMOKE_RULES="benchmark_cell__parallelism_syntactic_baseline benchmark_cell__genre_lexical_gunkel_song_calibrated"
 fi
 INSTANCE_TYPE="${INSTANCE_TYPE:-c7i.48xlarge}"
 MARKET="${MARKET:-spot}"
 REGION="${AWS_REGION:-us-east-1}"
 VOLUME_GB="${VOLUME_GB:-100}"
 WORKERS_PER_CELL="${WORKERS_PER_CELL:-8}"
+# Published outputs are adopted as they are; rules matching this regex are recomputed regardless.
+FORCE_PATTERN="${FORCE_PATTERN:-benchmark_cell__genre_.*_gunkel_}"
 
 VCPUS=$(aws ec2 describe-instance-types --region "$REGION" --instance-types "$INSTANCE_TYPE" \
   --query 'InstanceTypes[0].VCpuInfo.DefaultVCpus' --output text)
@@ -39,7 +41,8 @@ aws ec2 authorize-security-group-ingress --region "$REGION" --group-id "$SG_ID" 
   --protocol tcp --port 22 --cidr "$MY_IP/32" >/dev/null 2>&1 || true
 
 USER_DATA=$(sed -e "s|__GITHUB_TOKEN__|$GITHUB_TOKEN|" -e "s|__CELLS_AT_ONCE__|$CELLS_AT_ONCE|" \
-  -e "s|__WORKERS_PER_CELL__|$WORKERS_PER_CELL|" -e "s|__SMOKE_RULES__|$SMOKE_RULES|" bootstrap.sh)
+  -e "s|__WORKERS_PER_CELL__|$WORKERS_PER_CELL|" -e "s|__SMOKE_RULES__|$SMOKE_RULES|" \
+  -e "s|__FORCE_PATTERN__|$FORCE_PATTERN|" bootstrap.sh)
 
 MARKET_OPTIONS=()
 if [ "$MARKET" = "spot" ]; then
@@ -59,5 +62,6 @@ aws ec2 wait instance-running --region "$REGION" --instance-ids "$INSTANCE_ID"
 HOST=$(aws ec2 describe-instances --region "$REGION" --instance-ids "$INSTANCE_ID" \
   --query 'Reservations[0].Instances[0].PublicDnsName' --output text)
 echo "instance $INSTANCE_ID ($INSTANCE_TYPE, $MARKET, $VCPUS vCPU, $CELLS_AT_ONCE cells x $WORKERS_PER_CELL workers)"
-echo "ssh ubuntu@$HOST   # tail -f bootstrap.log, then cat RUN_STATUS (RUN_OK, SMOKE_OK, or a failure)"
+echo "ssh ubuntu@$HOST   # tail -f bootstrap.log for the step count, tehillim/tehillim-data/logs/<cell>.log for a cell"
+echo "progress: ssh ubuntu@$HOST 'grep -c Finished bootstrap.log; grep -h ^progress tehillim/tehillim-data/logs/*.log | tail'"
 echo "$INSTANCE_ID $HOST" > .last-instance
