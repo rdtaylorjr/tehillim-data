@@ -1,0 +1,23 @@
+{
+  "genre.semantic.gunkel.song_component_motif.master": {
+    "cell": "genre.semantic.gunkel.song_component_motif.master",
+    "code_hash": "7812da3013055eace1e0025dd33e2a8904cec5c80244e7183e5e1ccc4cc12ca4",
+    "duration_s": 0.813419,
+    "inputs": {
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=detail/genre_pair_detail.parquet": "18f345b9c81470a6263f9ece91d4ca9d3e2f1e62dbcca204f7b8d6298e6993c1",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=detail/genre_summary.parquet": "46e57369149d8bcdcb542489ccf1f884ebd68a7d0dff43ee92154fdf77ccf505",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=raw/bootstrap_cis.csv": "9d7410e5b4046cac6bbd3c22cc4e3c636943c65dabcb9427d366d4769a1eb0da",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=raw/calibrated.csv": "87841140ba96b56332db652300ed250bf0d191e4cb5ddcc705406700059e2c70"
+    },
+    "outputs": {
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=master/genre_metrics_long.parquet": "dbb8cf16500462afcd3085031b225ea3859238a8541adbc047b066f31fc43e86",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=master/genre_metrics_wide.parquet": "0b8ba457f885530d0e9d73bda5de3eee7c979dd97c2351a7a7c825cac8cf2718"
+    },
+    "parameters": {
+      "args": "--summary-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=raw/calibrated.csv --bootstrap-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=raw/bootstrap_cis.csv --detail-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=detail --output-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=semantic/stage=master"
+    },
+    "repository_revision": "c9fd0ce441cef769764b7b12a87b28489fb37fb0",
+    "rule": "cell__genre_semantic_gunkel_song_component_motif_master",
+    "started": "2026-09-17T22:31:25.199016+00:00"
+  }
+}

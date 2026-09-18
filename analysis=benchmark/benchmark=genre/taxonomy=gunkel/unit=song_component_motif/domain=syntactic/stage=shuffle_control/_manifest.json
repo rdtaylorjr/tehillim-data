@@ -1,0 +1,1244 @@
+{
+  "genre.syntactic.gunkel.shuffle.clause_kind_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_kind_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 96.599882,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2_3gram/part-0.parquet": "48f4afb4a0ab41d26fc3f48560ceaf93c43f682bbf3155347f52107803e12386",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram.csv": "b4ad5f325b6e1feb7219d6c55a6c3077ae97894b89f024b6cfdc188664b78be2",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram.csv": "7a138b1c0fd4d2b22409e6dc222ee5b0ba668d83b8a182df6104a00fb5e1aee0",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram.csv": "4364ea1aa8f0f66550e86510fa92417e33701dddc6a429c73907c42a9a866f9d"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2_3gram/part-0.parquet --family syntactic/clause/kind/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_kind_1_2_3gram",
+    "started": "2026-09-17T20:27:49.458448+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_kind_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_kind_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 97.864477,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2_3gram_psalm/part-0.parquet": "50b5e56b14d834957b908ac50988f3c8c4c5235158a7c4296489b71f20e1bb06",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram_psalm.csv": "7c177cfe0445657693893dc5501e72a1d328bc088ac785f949ba082d7ada0074",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram_psalm.csv": "e18bd9f7163a9e36726c5accecfed789b85bc2ae5f4d7cfc7697fbf0dd55847a",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram_psalm.csv": "f2cf9adb3f054e7f7b43326c71412baf34707eafa78fda46d332c6ee3c21e7af"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/clause/kind/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_kind_1_2_3gram_psalm",
+    "started": "2026-09-17T20:21:47.826943+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_kind_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_kind_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 98.466719,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2gram/part-0.parquet": "b70c3663524c92964004716cd663b1de9e3aa9c42bb351418e30632977881a36",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram.csv": "021c76d0407945a0ae0dfd319d13f0c4fd0d59f4685bb96573f388d6508f99bf",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram.csv": "c140fbabc0cc975b75a28f0d705d6a49c1ebd7ce248662047c65972dfeb301db",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram.csv": "9c27d51145c3c25a9c63b71f2305f5a5bd894ecc1fc8cf30435fef8394db342b"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2gram/part-0.parquet --family syntactic/clause/kind/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_kind_1_2gram",
+    "started": "2026-09-17T20:21:46.473672+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_kind_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_kind_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 90.955042,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2gram_psalm/part-0.parquet": "499c84dbf19c09619e86121a9f8235ac97a913f1d9ee86a7cf20bbe887dc8483",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram_psalm.csv": "a7a7cfe4c9934d4852cb0c8f8e4f37dcf890199b3785236bdebbbda6d76197c1",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram_psalm.csv": "614defad9a2b59c82f4fbf518858bd41ca8a8e1cc9a53b41b6c30f55d1414028",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram_psalm.csv": "de102cdf6d83ed9a8d4d995e3cff61d061e9771d7032105fc60b23605b8d747b"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=kind/construction=1_2gram_psalm/part-0.parquet --family syntactic/clause/kind/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_kind_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_kind_1_2gram_psalm",
+    "started": "2026-09-17T20:21:45.179939+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_rela_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_rela_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 98.167967,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2_3gram/part-0.parquet": "5d0b11a4a2609a235e4e20b8397c19d4bd99fc35fba57ff16edf67b49b7bd60e",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram.csv": "06f191a1194daf0df006405df7eda5ffa39de78f5abdff155217efd3db16c69e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram.csv": "380f5eb33fe041a8ee0eef80949b58da4f0f1e56dc9a41b1623432f71e6aa9d2",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram.csv": "e5476bdfd5dc264ad0cec0ab7bc90b31f2fd969ee6b32192bf432b711c378808"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2_3gram/part-0.parquet --family syntactic/clause/rela/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_rela_1_2_3gram",
+    "started": "2026-09-17T20:25:47.473633+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_rela_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_rela_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 92.980541,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2_3gram_psalm/part-0.parquet": "93cdcb0a4ee6d3b7e1536fdc4c5a981280d1a159a3c53336be3ad60693a7af16",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram_psalm.csv": "e6b11e7dbbc97fb08d7d268eb0c9d135a7204f1930b39987f2c135cd3cb19275",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram_psalm.csv": "052a0980263b0f665b0ea7fcb03561f4660e77f325a0be3fc4b4a508ce992768",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram_psalm.csv": "6f67ef63a1ded20f33ab7ca8979d6875d014ee2f4f0f44db7a67b4c987d99e4c"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/clause/rela/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_rela_1_2_3gram_psalm",
+    "started": "2026-09-17T20:30:18.735706+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_rela_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_rela_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 85.914017,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2gram/part-0.parquet": "280bbaaf6df64b87fffe5d0428df05bcb70968613a2829cc75bdfa27b9aaef89",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram.csv": "461e18990060a62084369943163b2c007bb1dd1acb51be55e5d497755bae55dd",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram.csv": "0cbda1d0a5f467717b022488ed52a358fd1562899c4b982d47f017716e9be3a0",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram.csv": "79db105c66b1cc0a6d74773b08d2bf4df71f77b5cf7705dc3671eaa06ca7ccb0"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2gram/part-0.parquet --family syntactic/clause/rela/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_rela_1_2gram",
+    "started": "2026-09-17T20:28:09.620375+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_rela_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_rela_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 82.729475,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2gram_psalm/part-0.parquet": "01b051de0e32dd47a639e799a0b8fea3b85716adc5a241afd1797b113c32012a",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram_psalm.csv": "e71e224bd2cf429ca6f09c91f7004b36b4392a78453898d28437ed4cdae8cb38",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram_psalm.csv": "d02c9d6d56af6ba15f439f0616673174536c8ed0179d1ea427c919810a6126a2",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram_psalm.csv": "94111a36eb924f2a7e48d354701a598f5e0dab0c64ff366bfd532405048545f6"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=rela/construction=1_2gram_psalm/part-0.parquet --family syntactic/clause/rela/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_rela_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_rela_1_2gram_psalm",
+    "started": "2026-09-17T20:30:21.164255+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_signature_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_signature_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 115.969032,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2_3gram/part-0.parquet": "297ebe05325a28410ab5261f3f3a98399d3514bbe71a1e9c4f5e17329fe30bfd",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram.csv": "8ebca2293af5258e1d19acc592cadb2f9659e196af37bb6b417c382a138fe3b3",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram.csv": "bce7bc0fe3ac5bdcc710f8772125533a77b8be6f6d1d0983ed1c9f60fb9cb914",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram.csv": "eef38c5ac668d45f3455c757065a8b669adda45184e80f956e2ffa57c61ec47a"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2_3gram/part-0.parquet --family syntactic/clause/signature/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_signature_1_2_3gram",
+    "started": "2026-09-17T20:21:47.908542+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_signature_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_signature_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 97.726409,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2_3gram_psalm/part-0.parquet": "a8f0ed5733543764bd9b23acc702d1776fb5af0b46a39bc6d97ca8c8087ea1e1",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv": "38df425d7cab4e505bdd492ab2de17ed7e553b6f5dc383036f85c0028bd2b652",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv": "d2f2b7dbcc97e36401838cd9d8d9b7f940de68ca4526d1571b601d046c8cd883",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv": "2583677a35e348c482de69cb64f905b1190323f83ec44ecb9e7773ef10fc6101"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/clause/signature/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_signature_1_2_3gram_psalm",
+    "started": "2026-09-17T20:26:15.641715+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_signature_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_signature_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 170.28468,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2gram/part-0.parquet": "b66b789c79306116e74b8e396d2b64b81cdf8e48fac35e60a4d07fc5e571ca97",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram.csv": "7ed307ad93bc2adf578153c33f49f709fad7f411c392fcd78240de6b30390349",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram.csv": "a8960c6a9bf469db9c52adcbecfe3af69813552bf5864b2c24c27f2eb7bc6f2a",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram.csv": "e2d99cb5e3b183bc53f107f6dcbcef9777da09c2484e375b31001dfb2e9c8ae6"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2gram/part-0.parquet --family syntactic/clause/signature/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_signature_1_2gram",
+    "started": "2026-09-17T20:25:34.005547+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_signature_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_signature_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 123.927178,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2gram_psalm/part-0.parquet": "74f6f2e7c54e5221d6579d79d3fb022f47fe15bad3e7924dfdb755e5b18ec53d",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram_psalm.csv": "a79ba48d2158d1639f82be0f54508a38fad9125611287449f46ce4ec0a28b5d6",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram_psalm.csv": "43a96844c7daec755cb414cfb8f1c417cb8dc4d7638d00ef692a19c22488bacb",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram_psalm.csv": "9a789fb193cbb3ff25fb94700af5808bfcb7442d093559888ce5534f4dcf0fd9"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=signature/construction=1_2gram_psalm/part-0.parquet --family syntactic/clause/signature/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_signature_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_signature_1_2gram_psalm",
+    "started": "2026-09-17T20:29:09.710864+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_tab_transition_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_tab_transition_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 78.668459,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=tab/construction=transition_psalm/part-0.parquet": "34339c67b4043448df44a552828a576baa4c5dc8266c91958eaea31e8082539b",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_tab_transition_psalm.csv": "bc4837e80dd1dbd4f402cfcea634eec9157f2d03b9ea796eb8cbfda9680e959c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_tab_transition_psalm.csv": "b5e88fab1708c0be67db027115b598abee7397f4c446754efbb95d65abba6bf6",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_tab_transition_psalm.csv": "f197463370b6e0cfac34fc13e4b1fe4660b595c50cca0096feaee9c812febcea"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=tab/construction=transition_psalm/part-0.parquet --family syntactic/clause/tab/transition_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_tab_transition_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_tab_transition_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_tab_transition_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_tab_transition_psalm",
+    "started": "2026-09-17T20:30:06.911687+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_typ_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_typ_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 104.07456,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2_3gram/part-0.parquet": "b27591ae338139c393f8dae99c45806eabb7e3fd438628ddf5b58cb1c2f03bd8",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram.csv": "9f6559450cc1e109f9a522f4018cd16acf027693c5b9da9689f81273efc1b18d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram.csv": "6a0a4b4245d3344b0fc3d8775bb410fd2494c5672594b99b180514b893fd29d8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram.csv": "a3e507e4dfa4775ce0ef9d53f838c5b59fb47f8ab9966ff48fbb13b51f4012f6"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2_3gram/part-0.parquet --family syntactic/clause/typ/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_typ_1_2_3gram",
+    "started": "2026-09-17T20:29:02.668601+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_typ_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_typ_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 89.626981,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2_3gram_psalm/part-0.parquet": "32ddaf1f3786fe454495afbd979244e083387fbef6422ee6afa96de26ed67dcb",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram_psalm.csv": "4c55504f91767603e3f4b7ca5ba18bf93af26937fbd3d6c7b664253eb5e0a554",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram_psalm.csv": "35d08b52cabedbc8bb14f18e03b76990dae3d050e975f3cef7c5e43d942ffc5c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram_psalm.csv": "801d066a0d44ca7f2fd44810617572ddb3593265576e9eaabe46a59e3bab118b"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/clause/typ/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_typ_1_2_3gram_psalm",
+    "started": "2026-09-17T20:25:47.753205+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_typ_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_typ_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 89.55197,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2gram/part-0.parquet": "30f6951cf0f1a9456d47ccb5400b3a4f6189b62be8c1cb081fe7c48e86e2f505",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram.csv": "1177322ac7b56a56485415c456eb1e6de757fd9de5b110883c4ce581fec8bd73",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram.csv": "dba310e2117a4cc271e3646f94fa3460897b12c73f654334b13db859d8322bc0",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram.csv": "f1a65b3df927ac009de1225387ef4f7a286c8804e1421a6ef3954bb4ce442dba"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2gram/part-0.parquet --family syntactic/clause/typ/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_typ_1_2gram",
+    "started": "2026-09-17T20:27:36.013998+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.clause_typ_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.clause_typ_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 91.559453,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2gram_psalm/part-0.parquet": "1c8b4a391434101f138efa30b5d04bd4284f61206c318b3b737b33a9101ba2c8",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram_psalm.csv": "4024b1eb5d176c736c4e2093b63d274fb56400143d2db76cd1b97af8f7aff359",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram_psalm.csv": "95ae4bbb324bd09ee88b0a72532c160dba241e3c39cd597bc60b1f545b1542c9",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram_psalm.csv": "57975b19bf7a2ee55139581c5626d2e40e6cf1e0ef70b7dbb8a85f744b1c5bb2"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=clause/feature=typ/construction=1_2gram_psalm/part-0.parquet --family syntactic/clause/typ/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/clause_typ_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_clause_typ_1_2gram_psalm",
+    "started": "2026-09-17T20:28:31.648194+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.det_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.det_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 94.294303,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2_3gram/part-0.parquet": "43a1262e7e0d320a62a53d542523dbd6af16fe2525e407c90a70014dcc0724ba",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2_3gram.csv": "034e2f8511da0c512abb439fd91c1af5763ea5e803efed657912151dcc9f84a2",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2_3gram.csv": "221f69589bc5352ae4b8030d71bb75bcfcd11510dd7df6a5b1bdc530bfe71107",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2_3gram.csv": "fd6f215f25b9b5f5342ce6581b105c618d73e9b4b2326902213e11154d68148a"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2_3gram/part-0.parquet --family syntactic/phrase/det/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_det_1_2_3gram",
+    "started": "2026-09-17T20:25:51.624507+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.det_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.det_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 82.140363,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2_3gram_psalm/part-0.parquet": "f198016c2ca351d3be2445a755fc8ea1a1bb01761fb268e081a2923248f57a88",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2_3gram_psalm.csv": "5b9abb00507891dae7289690cd87edd31e33caa78163a050b061f95c9bcb7e63",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2_3gram_psalm.csv": "317dd2e43c481669d1886a18ce266b4a8a3a8557455dbc520fa24f79172e73a0",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2_3gram_psalm.csv": "3b93040c23abf3288a8fbb1ef640a7a590ab1b9703010c9695c6585c1e29f8d0"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/phrase/det/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_det_1_2_3gram_psalm",
+    "started": "2026-09-17T20:24:41.434252+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.det_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.det_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 78.072212,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2gram/part-0.parquet": "4c7e202758f082000fe58f231e80786047580b4166c2d73cc748c95c1c56403c",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2gram.csv": "e9c2a46970ab9066703a1cb807d96e7a0a046c82e1fefd8666d7e11fd174e3f8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2gram.csv": "7a4dcbd14da84276dbdcec08b234879a8241601bd7a2950112cc8ed53aa05644",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2gram.csv": "fb2c70a9864576789fc783b66affc76db6d1b3821ac66bc9fa9d68184daae67c"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2gram/part-0.parquet --family syntactic/phrase/det/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_det_1_2gram",
+    "started": "2026-09-17T20:28:17.179967+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.det_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.det_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 89.36182,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2gram_psalm/part-0.parquet": "9eaf0e6c0c701ac5052b359b700b5170a5abd8f46c6b4946bf678b3fb4d5281f",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2gram_psalm.csv": "1828e9abf94b5efef741c10c96e13428d097ce4f060f9c2d2d3b6c74929dd385",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2gram_psalm.csv": "5d4a20bd551cc6e4c2417a52cf3e65aff7701e3764f62bf8f1c00871b33e832c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2gram_psalm.csv": "3f1bf7e1f4db5c917dd3220e38caa6d6538861e5c32bc30f6ea7ecbe968cb594"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=det/construction=1_2gram_psalm/part-0.parquet --family syntactic/phrase/det/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/det_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/det_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/det_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_det_1_2gram_psalm",
+    "started": "2026-09-17T20:26:13.380758+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.full_signature_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.full_signature_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 125.184019,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2_3gram/part-0.parquet": "30ce21fe1f0de7cdeb46c209a23cb02076724773aef9cb8ecd3b2ddcbf81fc97",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram.csv": "e69a296ee47c5fd4457a162e5a76431da6c4625d498ef8a7c29f02dcaa87d9f1",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram.csv": "cc2a1567a57855210bbcea584f95cf40246ac1935974826863ddacfc76a026b4",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram.csv": "9c14910e6e9b34a046e1d02bde75b305e9341141c2724683f849f2fe2721f23e"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2_3gram/part-0.parquet --family syntactic/phrase/full_signature/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_full_signature_1_2_3gram",
+    "started": "2026-09-17T20:23:33.624883+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.full_signature_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.full_signature_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 93.769404,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2_3gram_psalm/part-0.parquet": "430af7fb97093e89398251587f93b64db17f03665bba74765f3712b7b9b4cf98",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram_psalm.csv": "e89e37b5ad7e7fca0af1b4d42ed0190bc9acab985b53c870f588e2fe353b5072",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram_psalm.csv": "b160eccc96748a5f63426fb3df6007ee35abd98b3367aaa1fec024934f66bf76",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram_psalm.csv": "97d670d36e179bead84061ed726c109460a8a7e4405adc33a74b3d648cd194b3"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/phrase/full_signature/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_full_signature_1_2_3gram_psalm",
+    "started": "2026-09-17T20:27:27.640194+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.full_signature_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.full_signature_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 104.333808,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2gram/part-0.parquet": "085866f35accdcdbdd66b711fef95cce59bfc080b019126dd1ecf5962a687123",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2gram.csv": "34b2f48cd8d134f53097a1cf6728702e8a0e081f4f8e2d8bb1169c369ef2145d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2gram.csv": "0f3ab916b2b69ca56d6961f7741114e3c9804025bbdc76cda21c886ace59deaa",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2gram.csv": "29b99889dadec546c849a6eb38b31b0aada605f31b63b290c4903571a2175e2e"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2gram/part-0.parquet --family syntactic/phrase/full_signature/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_full_signature_1_2gram",
+    "started": "2026-09-17T20:30:50.837300+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.full_signature_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.full_signature_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 97.845088,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2gram_psalm/part-0.parquet": "5a23cae82c60fd74c79dc92d69e8b1182e302c8c845019fa45220645139642bd",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2gram_psalm.csv": "fb509b318d3a23807d3960cc94a53c989acd0471825f96b3e203bc270f85c76e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2gram_psalm.csv": "59d87e19e11ea72b49903c60372e314301c8578bf53a0f7f5287a09b2772eb23",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2gram_psalm.csv": "361e79e78077474e89b5ca8b235cf9fd79b5d758bcebf28e498fa7ce3e006f78"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=full_signature/construction=1_2gram_psalm/part-0.parquet --family syntactic/phrase/full_signature/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/full_signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/full_signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/full_signature_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_full_signature_1_2gram_psalm",
+    "started": "2026-09-17T20:24:00.931792+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.function_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.function_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 127.623264,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2_3gram/part-0.parquet": "6f81d72215016920540f78fb0b86eb67bfe2895e136da1ac5e666b21798c4ad0",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2_3gram.csv": "b2c22ecc7bc3c7064914f72fd46529e06a113a99e4b636094f69016a66dfc4c8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2_3gram.csv": "605cda3c03b04e2a49fb291c62e894c5718080b9c7650752d020dd7852f92df7",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2_3gram.csv": "dbb82e142b1209390f0359b98e07d9b574d7b049d9dfcf10839eb46d22865b74"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2_3gram/part-0.parquet --family syntactic/phrase/function/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_function_1_2_3gram",
+    "started": "2026-09-17T20:25:18.693629+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.function_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.function_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 107.301838,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2_3gram_psalm/part-0.parquet": "5a9c9a59862d66921c953644bb5d05e6510bc9c6af51bb637829c39c8a1c18d7",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2_3gram_psalm.csv": "6d908d37efc0b0b079f64570988bc688d45405ee0a710c07a115ca5c80127909",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2_3gram_psalm.csv": "7f849a738c399e1ecbf963b6a97b5f33f897a5cafbd51a1de38b0cbbed1c406c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2_3gram_psalm.csv": "4a96ad4cfc310f52da169ebc81d510428314b6be0e3137d7fb04c1cfcabe8eb5"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/phrase/function/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_function_1_2_3gram_psalm",
+    "started": "2026-09-17T20:25:31.152063+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.function_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.function_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 91.121525,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2gram/part-0.parquet": "25397cf24d7f5455bf5d02e00d2c14be8c41db0c86358a81b759d8eaf4d64b42",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2gram.csv": "e134266ffab74f4e9395b0fd0e2f4e5ff4d9e132514cb2a1c0a45e3add1612c7",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2gram.csv": "8772d7115398f4c87b047031c070e30819c15758eeefa359cf46b7c1f243b492",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2gram.csv": "46f96f7b35919cfaa68f2ab3437774fee9503420233df8911d23128ad17b39b6"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2gram/part-0.parquet --family syntactic/phrase/function/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_function_1_2gram",
+    "started": "2026-09-17T20:24:56.828963+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.function_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.function_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 93.550966,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2gram_psalm/part-0.parquet": "c109018d73acb3f725305b38e42e87052145e81d1bbb940b9662c80a2a80ca82",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2gram_psalm.csv": "d1b005e2e45b1c74b24957375ce17f38a7195b53615b858207606e34cb530297",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2gram_psalm.csv": "ae1317d9c2d57e35587fccef0479a74aff08abfa5b37d527f653a4bc1b150806",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2gram_psalm.csv": "3b995dfc2785221ebb6c07f664bf99ecb42afb51eecea638371c55c26a4fe3ac"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=function/construction=1_2gram_psalm/part-0.parquet --family syntactic/phrase/function/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/function_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/function_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/function_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_function_1_2gram_psalm",
+    "started": "2026-09-17T20:26:38.977287+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.rela_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.rela_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 103.892057,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2_3gram/part-0.parquet": "4a2f85540859b1641dd30467340fdee047c197bbb86a0e0fedbe896e3e35b467",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2_3gram.csv": "88278c0ef7506becfa4c0da38e39cbb730df2ec79dd9eb60f88a14b5c8003872",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2_3gram.csv": "ce1ea50e7fb857932e8a3769abe296f2b5aa648a6a0ab659d047bea2f8496475",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2_3gram.csv": "4d3bc51295e9ae0a015785c785816b4068507caf681c4b13a7cfdf5629c5f264"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2_3gram/part-0.parquet --family syntactic/phrase/rela/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_rela_1_2_3gram",
+    "started": "2026-09-17T20:21:45.328574+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.rela_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.rela_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 97.528374,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2_3gram_psalm/part-0.parquet": "30531e7fef2e05fed6dc80e089dac74660824cb38168037ac473043fa35391d4",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2_3gram_psalm.csv": "1ad5cb782a566a0c402acfc56edd34f998ebf9f2971e72242a3479a14171fce3",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2_3gram_psalm.csv": "91789bba04fcb535003e705e1f32a8130a946e1445cbb4973483bb4c678c2bdb",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2_3gram_psalm.csv": "2b4b546e6c7657200ed5e56cab2435e34d4685e101d6b52622f6ded79a3218f7"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/phrase/rela/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_rela_1_2_3gram_psalm",
+    "started": "2026-09-17T20:23:41.293834+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.rela_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.rela_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 99.699021,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2gram/part-0.parquet": "367c0363aef20623cc6ca705116a03364460031e212d9a909972e41f473c4650",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2gram.csv": "599e858cf24b12b17525b551def3362d31f08811a541a093f920136e9ace2690",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2gram.csv": "5c6af62817073e6c2938860ec2e9ee0884bb50fe46ee4db8d3bade5f1207fc78",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2gram.csv": "e8bf5d11f5858d492bb7b5d8e7de9a8b7a7283ad2d96aa648cf83d2000f8d3de"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2gram/part-0.parquet --family syntactic/phrase/rela/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_rela_1_2gram",
+    "started": "2026-09-17T20:23:59.049644+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.rela_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.rela_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 95.287573,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2gram_psalm/part-0.parquet": "1176b8cb464f9b1a8bafa28de4d87172f100dd4946c17ed877b374cae320c29c",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2gram_psalm.csv": "c206740a8df10bab30b694602311e3a837827739e0a26844e5632a3ee1b6b860",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2gram_psalm.csv": "e9f35a37e99889909568a0b93198033056be6d80dc60fc4e88aff9ee4d1ffdb0",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2gram_psalm.csv": "147c6448bbb007d7ed4f8f473308f7ff075889e25d7f6ed8611a179814e17a68"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=rela/construction=1_2gram_psalm/part-0.parquet --family syntactic/phrase/rela/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/rela_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/rela_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/rela_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_rela_1_2gram_psalm",
+    "started": "2026-09-17T20:21:45.247851+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.signature_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.signature_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 118.869305,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2_3gram/part-0.parquet": "9e9ab19210cf46b73fb42ccf366cb4e4f422adc0aa6ef2224a7ec1fae1a17a8c",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2_3gram.csv": "546c6b978bc97810e838c766d687829d4b9c853cdbc8dae920cb2e3cab4d43b0",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2_3gram.csv": "4a4a746538f8c850444f7919d610362b5233d632e04fa5aca2fd715e58c6011a",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2_3gram.csv": "4d58ad43a52144f0baecedaf689a942192abc9ff2c5f0632e2c681951a6ff5ec"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2_3gram/part-0.parquet --family syntactic/phrase/signature/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_signature_1_2_3gram",
+    "started": "2026-09-17T20:22:46.034697+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.signature_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.signature_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 96.434606,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2_3gram_psalm/part-0.parquet": "43b96fd5f9d91fffd09c9c3704edae2504514d76207d8761dbf9fefde5ca3335",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2_3gram_psalm.csv": "1b14cfdeb777c193450c1e8cd4d45e8639f345009b00255a49620f2d68291f98",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2_3gram_psalm.csv": "4e930c25ed997528dfb9ece98e4b681cd00a4cfb1376c12789c8ae89736a635c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2_3gram_psalm.csv": "2920977b2ce1dd6fb32ba128865e8d5968ed9280f1daf8cc4f8ba00012d8def4"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/phrase/signature/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_signature_1_2_3gram_psalm",
+    "started": "2026-09-17T20:27:40.952143+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.signature_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.signature_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 95.651464,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2gram/part-0.parquet": "02d71641ce85caceaa81e6db95b792fe3a54367f0a6c05f241df30ac9910b41c",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2gram.csv": "f12d8b0f34778560869fc716800997958dd817e74693fa9d5142722790ac982e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2gram.csv": "68272b4bb391b2d48ea6e044c6e5fd053e6bf7773656400bf52c8641575694f6",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2gram.csv": "cc126f6059d7161b7ab2a47a4149a4bafbdccb69f3191cf2e3c580faca781bdf"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2gram/part-0.parquet --family syntactic/phrase/signature/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_signature_1_2gram",
+    "started": "2026-09-17T20:29:14.630373+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.signature_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.signature_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 85.336705,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2gram_psalm/part-0.parquet": "2bebfa95f3d617ebd7f1ca88c9a6f3653be0460a13b3fd0084d0fd7a3e519d6e",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2gram_psalm.csv": "61bf981d03ce2deaf40de4a6738096a86fcba3ac65702c36115a905383cc21f7",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2gram_psalm.csv": "e63dfda9c370e7c2092add9fbf1433057ac08c1f4fa339799939932f198a2f74",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2gram_psalm.csv": "c6e14f6c21c1c5b409dad6a7ce3ddb255950137f4d1f55772043a84591360cbb"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=1_2gram_psalm/part-0.parquet --family syntactic/phrase/signature/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_signature_1_2gram_psalm",
+    "started": "2026-09-17T20:28:42.462818+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.signature_posmean": {
+    "cell": "genre.syntactic.gunkel.shuffle.signature_posmean",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 70.089608,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=posmean/part-0.parquet": "d5705c20fd769117c82c102bba951b0c0ac7f687ec6e7a45e8887f83b5716be6",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_posmean.csv": "6fc58fa3fb3f40641da86260b5827338221ba9ed183621150f91ddf8a8ea365a",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_posmean.csv": "7ecdecd94febf8975b24c39ad90379a0a4874a9bb4b7845217e4990978e0dd7b",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_posmean.csv": "9f89d4eca37f61f4deda971dbb17fd29c5298a7348f2eb896ee04b1457fbec78"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=signature/construction=posmean/part-0.parquet --family syntactic/phrase/signature/posmean --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/signature_posmean.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/signature_posmean.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/signature_posmean.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_signature_posmean",
+    "started": "2026-09-17T20:23:35.015446+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 77.983586,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2_3gram/part-0.parquet": "78be00c46f0e0402e490c0c1a6fd5b6e1a510e1d33b7483e0a8f2bb0ad80e7fb",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram.csv": "8acb18dfcd0b146fbe2dc1e412736eb2df05071d91e8f61888c635a915d5e62d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram.csv": "c29f61c873c03ec2b954d008028ff67cd4818e25d3c352f570f2818d85d6e062",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram.csv": "ac05ebbf5a249da7969f75fd97c7b3db4566b67d16567874ba74479f3abce5d0"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2_3gram/part-0.parquet --family syntactic/phrase/subphrase_rela/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_subphrase_rela_1_2_3gram",
+    "started": "2026-09-17T20:28:11.260134+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 93.557145,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2_3gram_psalm/part-0.parquet": "4450ee610a3f75e8435fc1afad69e2151fabbbf51e3b74396e0f6d981aae3a0a",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram_psalm.csv": "e475cc6e86e967c6702197d1d9a2638e01faa197df140740d7a059bb1d1d79d4",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram_psalm.csv": "261015ab64877e1883954acf6c0f8ace9100a895681c0a98984f5fe4e80d703d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram_psalm.csv": "1d8cacd2701c028ca66e8ce95db5261e405e741172fca799f1c98079d2c33a0b"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/phrase/subphrase_rela/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_subphrase_rela_1_2_3gram_psalm",
+    "started": "2026-09-17T20:21:46.385259+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 73.987489,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2gram/part-0.parquet": "7ff0177624e388606f547b4f5e0067dab10d9915ae0e8d19f0ed53e79a576285",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram.csv": "25872bd22cfbe169c4f316a9947d36bf61b6c51455fdb9f30d8ad8cd3b2e6f1f",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram.csv": "dbe326997dd8ff35f7185796568e618d426f1eb006e4b10ab463e69686ff136c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram.csv": "11ca7ecb8d96e179d467237fdfb1af832569b2e90314d1aee0cfc36dc1123142"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2gram/part-0.parquet --family syntactic/phrase/subphrase_rela/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_subphrase_rela_1_2gram",
+    "started": "2026-09-17T20:28:01.361029+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.subphrase_rela_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 74.101788,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2gram_psalm/part-0.parquet": "64b0c7c4d7efa5762b7809d96a08adafdf06d8f027e6a844b8364e40519a8931",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram_psalm.csv": "b50447a81ccb1f504dce8092dcccaa18e41bb4c959796d97d79e0df86779c04e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram_psalm.csv": "611f1c4b30b5e64349d78a8ffd3a15d7e86f90606028e99457a910d74d681e75",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram_psalm.csv": "15c0b4325dd6932e9f05383aa42d26537ec50040a1758eb5670b900ffc4832eb"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=subphrase_rela/construction=1_2gram_psalm/part-0.parquet --family syntactic/phrase/subphrase_rela/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/subphrase_rela_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_subphrase_rela_1_2gram_psalm",
+    "started": "2026-09-17T20:25:55.776818+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.typ_1_2_3gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.typ_1_2_3gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 119.809536,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2_3gram/part-0.parquet": "dde19fff0e4d86c44e10e72a31f17e372eec0e44575df71844760a1bc8cb3fca",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2_3gram.csv": "525bb98b8ed4740c4e9ab3baa102411fa050cc4927e6c1008f63c435710b80bd",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2_3gram.csv": "921e782f16a50e240eaf0cf6506cd5f1d4c182aeb4898985bb276ded61cbb710",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2_3gram.csv": "b8b5bd31c5cef453f905393d35027948bd1a833c96fdfb60c01f9baf8cc93def"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2_3gram/part-0.parquet --family syntactic/phrase/typ/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_typ_1_2_3gram",
+    "started": "2026-09-17T20:28:09.129401+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.typ_1_2_3gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.typ_1_2_3gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 102.780899,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2_3gram_psalm/part-0.parquet": "fba310a15354bb915ab7aec5f14e74bbd94aea30116a42e25c8af387bc5cfa99",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2_3gram_psalm.csv": "4310f59f4fd645136574b391771f02fb40f51ba1312ca26681a3641f163ab4e4",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2_3gram_psalm.csv": "9e056767e0fbe4bafa8d0375ca3ea863898a277fa4a63f07d00d7cc3f3ef34c6",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2_3gram_psalm.csv": "e300776e955b629574ecc48a87a894bf2038a43f8368dfc94c578cf160a5e5bb"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2_3gram_psalm/part-0.parquet --family syntactic/phrase/typ/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_typ_1_2_3gram_psalm",
+    "started": "2026-09-17T20:23:19.928090+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.typ_1_2gram": {
+    "cell": "genre.syntactic.gunkel.shuffle.typ_1_2gram",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 84.115384,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2gram/part-0.parquet": "353e557fed0f54f68ca49e522517f47071dade7c8a7a5737c4918fc527b27be2",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2gram.csv": "67100221145bdc7b7b6e23f93a5a847eeb8f7e69bb18dabcfa25e561099b29be",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2gram.csv": "d274a0797cacb959a26ce05ee3a49cb474949e6c81d07933658c9f5b018016b8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2gram.csv": "56f635eaab9d7be1e1d4234096b9d5ea92cd101ade4d8b3564b1214df8c16593"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2gram/part-0.parquet --family syntactic/phrase/typ/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_typ_1_2gram",
+    "started": "2026-09-17T20:28:34.355298+00:00"
+  },
+  "genre.syntactic.gunkel.shuffle.typ_1_2gram_psalm": {
+    "cell": "genre.syntactic.gunkel.shuffle.typ_1_2gram_psalm",
+    "code_hash": "1a622743db41bb910b2ebc13911f122594f4ef5e441086aa775348ea77b66edb",
+    "duration_s": 81.742262,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2gram_psalm/part-0.parquet": "652103924e0f5f56879f5ef4714ece046234482718e72afd35c6981768eb1b7d",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2gram_psalm.csv": "9ff0e49a677311500d413c325372ae7c52fbb38887ad008140f3e0113b056822",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2gram_psalm.csv": "97dc03907f89390f88d112dcc0de40a9e54514d0332394ae60934f8ed9257376",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2gram_psalm.csv": "e7560d2d494acf26ed1a7a4023b9330dabf035880c742a16992dcd4927b71fb0"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=syntactic/level=phrase/feature=typ/construction=1_2gram_psalm/part-0.parquet --family syntactic/phrase/typ/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=syntactic/stage=shuffle_control/typ_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=syntactic/stage=shuffle_control/typ_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=syntactic/stage=shuffle_control/typ_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_syntactic_gunkel_shuffle_typ_1_2gram_psalm",
+    "started": "2026-09-17T20:28:58.304812+00:00"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "genre.morphological.gunkel.song_component.master": {
+    "cell": "genre.morphological.gunkel.song_component.master",
+    "code_hash": "7812da3013055eace1e0025dd33e2a8904cec5c80244e7183e5e1ccc4cc12ca4",
+    "duration_s": 0.958561,
+    "inputs": {
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=detail/genre_pair_detail.parquet": "027c6b70820ab65c3cef3fe8c97ebe47be27b565553888244d96b0981f065246",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=detail/genre_summary.parquet": "2ff63f6814c26a3e5186ac2954219b057937683c06559fa4ef8bb77372c37ce5",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=raw/bootstrap_cis.csv": "19a289a5f9f106d0e2e707aba6b4451049f26ef4c43ae8b6ccbd4d9c36e32caa",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=raw/calibrated.csv": "9cf4a74dc74300ca6733dfe7b34af5b87ce7d9d8512629556bc8875a65b0f190"
+    },
+    "outputs": {
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=master/genre_metrics_long.parquet": "33c91dc9b9782f1154e7ace3879b9fcc9a983139640723b080330eadc9b3c48e",
+      "/Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=master/genre_metrics_wide.parquet": "8c5473e0a1beda2e131f0bc606a621ce3da8148aca66f284a71325034c971e3c"
+    },
+    "parameters": {
+      "args": "--summary-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=raw/calibrated.csv --bootstrap-csv /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=raw/bootstrap_cis.csv --detail-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=detail --output-dir /Users/rdtaylorjr/Developer/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=master"
+    },
+    "repository_revision": "c9fd0ce441cef769764b7b12a87b28489fb37fb0",
+    "rule": "cell__genre_morphological_gunkel_song_component_master",
+    "started": "2026-09-17T22:20:12.718123+00:00"
+  }
+}

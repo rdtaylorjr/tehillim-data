@@ -1,0 +1,1325 @@
+{
+  "genre.morphological.gunkel.shuffle.morph_gn_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_gn_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 84.578453,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2_3gram/part-0.parquet": "f86c379866357b81c6c331e34fb809522bae13dc78c2e0e27bcc632c47400457",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram.csv": "1d9d28408ce328e0b407404e440cf87479c2f7d0cbd6bfa040cd35de359606c8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram.csv": "723943da9e531b738a8244c12b239cc2e9cfc6867bc15cb78f84a5d5bc8c727e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram.csv": "6e25b662701be3fd6c988e126eb500bd492b2573f087f72e8297e0f105edff74"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2_3gram/part-0.parquet --family morphological/morph_gn/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_gn_1_2_3gram",
+    "started": "2026-09-17T20:27:38.634763+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_gn_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_gn_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 92.729925,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2_3gram_psalm/part-0.parquet": "f8128a53efd719ac6b321bef43622dbeb025a1f8bf21d847685c2a4d41aece90",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram_psalm.csv": "a8ef755bd9ea9fd7c96c4760a0b7aa0ec8c9114e098655947075d6ee4353b090",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram_psalm.csv": "66675b594563bd0eca291003e14052700b55505e485540c0b0916f620ac387d8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram_psalm.csv": "7883a2590a1e99f663a0fac971c2ac5adeedcf4d01b5f31e706da8c084a0e8a4"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_gn/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_gn_1_2_3gram_psalm",
+    "started": "2026-09-17T20:23:30.887952+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_gn_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_gn_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 99.029796,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2gram/part-0.parquet": "3b52c0fe58a493ae38e66b9a3712080c4fe71140073de278fbedd132b31ffc36",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2gram.csv": "fb959df0a200ae6914dbc1f41b5fa5bd1b32da1ad9f90da0563f1a61b8bae753",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2gram.csv": "9b369d8fcba1f80dfbc74c60b7984254b2c4dbce1e9f687f0ac63d759b71979d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2gram.csv": "9472e71f6f5999f09691c9ebb7e278a0385b5ca5b3fa137b2df833a2a130502a"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2gram/part-0.parquet --family morphological/morph_gn/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_gn_1_2gram",
+    "started": "2026-09-17T20:21:47.733911+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_gn_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_gn_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 83.470629,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2gram_psalm/part-0.parquet": "b483270fc5d2f5acd1754dedfa2e6ab7532202c6b6d22d00ecd7152d5530749f",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2gram_psalm.csv": "476f9182c9d543e77aff416b4c079470a366b616df8d2a91e216e1d9e4eeb9b9",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2gram_psalm.csv": "ae5bd07903b681ce01765f169e42aacf8ccbe477f7f6cc453212e4c333bd2f26",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2gram_psalm.csv": "e5dbb406e32ad77cb28868df6490b361689fdabf90099a105021149a1c4de593"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_gn/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_gn/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_gn_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_gn_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_gn_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_gn_1_2gram_psalm",
+    "started": "2026-09-17T20:24:13.691354+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_nu_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_nu_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 95.388839,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2_3gram/part-0.parquet": "a7b97654db0537fc8dca6963111f562b9a152381f2959186520de2ca2d8a9dba",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram.csv": "dea7b499c7ced220658c2e290be9a7fc7400805052b29beaf788502f973db805",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram.csv": "02e54c6ca91881dd10626d5ee3249b5df0a8d3bb11345322a1d4ae6e75f15677",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram.csv": "60dcf6cc6872649957d239fbbbabc09ffb03eb73696baaa373c1944459738af0"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2_3gram/part-0.parquet --family morphological/morph_nu/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_nu_1_2_3gram",
+    "started": "2026-09-17T20:29:48.694890+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_nu_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_nu_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 79.619309,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2_3gram_psalm/part-0.parquet": "8530e2b84631db04abc3fc9bbcbc1ecdfc60f835f4abbfb676c9d904b6d845f0",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram_psalm.csv": "d78fc0cc8647bbcc068692079bcf45d4e8da0ed616561be03b609b05ef5ba2d8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram_psalm.csv": "448914f0a610214fa5fb714bc538d94dbc550f3db9e0afe28c825d536402aefb",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram_psalm.csv": "259172ed3ac8d31a233dc95a35d402d063cfd68e5e041a3c57925c89e62b5326"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_nu/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_nu_1_2_3gram_psalm",
+    "started": "2026-09-17T20:28:22.541360+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_nu_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_nu_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 79.096379,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2gram/part-0.parquet": "fe3020fcbc7b3c5f9a7854daa57d813c28e18bdaa975a82bf38773316359c39d",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2gram.csv": "3161e940e88e2c13cef996f7944b4685b2a26e7f9e11ee882c8556b6534a7df8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2gram.csv": "647ae2be718ff5f38a43f3c857e54eb167b7fe2f68c6a21ef17a08db946d24a8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2gram.csv": "079403233cf612e9856495b1e3ffdbea5994eb0f070c9984131ec5e755918a32"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2gram/part-0.parquet --family morphological/morph_nu/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_nu_1_2gram",
+    "started": "2026-09-17T20:28:26.209848+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_nu_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_nu_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 91.190339,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2gram_psalm/part-0.parquet": "e6a2544837c3fd4bea50fa11fbdba504ca4373a6c05ecaf199371ab96ed04a1e",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2gram_psalm.csv": "8e0ca716170a668a8c15d53960d9b05b6e6a894fc7f3f4acfe97a5fa0561e97f",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2gram_psalm.csv": "d463d735f17269e257f86329b7e9d211031b09e5ec5adc236e528d215caf457f",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2gram_psalm.csv": "dfd5b302ee035dba965fa98452db6c348c552d28416844f80f1935f460a2a5dc"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_nu/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_nu/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_nu_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_nu_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_nu_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_nu_1_2gram_psalm",
+    "started": "2026-09-17T20:21:47.973626+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 100.502584,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2_3gram/part-0.parquet": "67763d4224d9434576b351942b67bec8aaccfc755af6bbb3512f168b3ccfd397",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram.csv": "ddc7dfb8d080ca582425d07588ef4c56564e3383b5454b8dfcef727e366ff09a",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram.csv": "07c0f3731e006e405043a8db390fc4bdffb1156a709ecc61fdd594a2ab078996",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram.csv": "498b6ef7ba7fb2e709759e346cbc33d1f9bb4525b1a10bd9d6f4c361ae3d8d8c"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2_3gram/part-0.parquet --family morphological/morph_prs_gn/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_gn_1_2_3gram",
+    "started": "2026-09-17T20:26:16.444623+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 90.763458,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2_3gram_psalm/part-0.parquet": "aef4e19883ad622851eb111a07d9b66683046fabb6eea3af980f50125b537e59",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram_psalm.csv": "13f107d142106b0f5c81b6985b77579da4453d826448825eb1d402c33aa7438d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram_psalm.csv": "de46118c7d349fac6410020d26a4466c5e2c2d3320520d08f2f654531937fc0d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram_psalm.csv": "5828bb23f3f6883173d492d94dfb89f51aa24d19ca6e45b3d16f078d117228ad"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_prs_gn/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_gn_1_2_3gram_psalm",
+    "started": "2026-09-17T20:29:53.186889+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 85.45239,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2gram/part-0.parquet": "db4334b9fc1d89ec5ee592bd096a95ae891c031c7fde9e27efc2723dad3ba584",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram.csv": "c9e7f79e2207be35ae7f8c88f77e2c2698336b65d8eea77b88fd0ff075c3a676",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram.csv": "309f6da7b8a26088198b330385ba562b162de60e2889f4590c106fb51e7eb5c3",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram.csv": "e518c26e9a3732a5ef40be06685af7223b2e57153c8386e40abdb875bfae1e8d"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2gram/part-0.parquet --family morphological/morph_prs_gn/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_gn_1_2gram",
+    "started": "2026-09-17T20:30:30.259961+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_gn_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 82.32343,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2gram_psalm/part-0.parquet": "be2aa5a080998d3aadf9bd6e23832ddc8c1b3540d6cd1ba11d5b8f1f80b66e73",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram_psalm.csv": "c7cfe3434350fc89792894fbe099380e89df1e98b0806dd1d53fc8cb7b1cc07d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram_psalm.csv": "c353871aa4e03a1d5e45b512db24825cd2c82e639fdcb160c20b99fdd0c437f4",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram_psalm.csv": "47786aadf20314e4ae344f36235c69fb353846543f907f0369807971a8d3e216"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_gn/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_prs_gn/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_gn_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_gn_1_2gram_psalm",
+    "started": "2026-09-17T20:29:41.826076+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 102.524405,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2_3gram/part-0.parquet": "0b3c987f0bca3b13c99e23f6a3e2c077d7ed3de06248ab1b5669d3e449e18923",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram.csv": "a2aa3b0029d81071003413b21f4af13dec5de8cc6b8e3955bcbd71d76b866de6",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram.csv": "ef6f03fe81abeed7bb244d245e25171fd6d138a6c8af9b415026d275cba7079d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram.csv": "bcd0c7f63f76781a026efaa5c41b188eda2a3434517d8aaf72e08fd6a14e5242"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2_3gram/part-0.parquet --family morphological/morph_prs_nu/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_nu_1_2_3gram",
+    "started": "2026-09-17T20:23:42.216725+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 97.503258,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2_3gram_psalm/part-0.parquet": "00cafbddb89e420dbfe3ac30381572c5b17a3288e03ad6cf07895897de9cf550",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram_psalm.csv": "954f0a698d2f6d721362816840202b826485936975d3e6703022e08c8d72acbf",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram_psalm.csv": "449eee5d5939e5629451884145a7d91bf74e63d409e5ba33ea6ff0644e725f9c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram_psalm.csv": "c93a590123de5ce39bef9aeccdd9aa94e7edfc2caa3f72b0ed94569761d96f01"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_prs_nu/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_nu_1_2_3gram_psalm",
+    "started": "2026-09-17T20:23:39.152594+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 95.784309,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2gram/part-0.parquet": "d87eed7ed61564e1a7d3746cb568311050839a8a910e0f7b81afa5c2fefd211b",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram.csv": "5e6a7e245339d35427b4437e770e2a002819871785d0b59b09ffab36b24ee394",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram.csv": "61d56d13bda059226cca26df26268d49c5c9ec069ddc57e975d1c1762133a2da",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram.csv": "ad5c5ee8a183891c6e6a2c46afd1994cc20a784a5c59287da6309dd4f9aa3c23"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2gram/part-0.parquet --family morphological/morph_prs_nu/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_nu_1_2gram",
+    "started": "2026-09-17T20:21:43.876655+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_nu_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 77.025277,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2gram_psalm/part-0.parquet": "50b9cd4df687ec3793a5d026372c1ff446ea23e42a026df71c8fc021564913e1",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram_psalm.csv": "499dbabf3e3a9801a91efcb7bdfdead1753ed548e8d93ad5cc49278ae0350b9e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram_psalm.csv": "f672bf827ddfb78b8197330aac2011d229a53238dc27d13098abce5493bb5b74",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram_psalm.csv": "85c5e42d60774732c279ec76059070c2622d73ba7de052e9fc40e661cabee059"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_nu/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_prs_nu/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_nu_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_nu_1_2gram_psalm",
+    "started": "2026-09-17T20:27:30.788666+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 87.677377,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2_3gram/part-0.parquet": "d47e6686523c07bd0680ffc7cf53eead5c5b35ea21ed02103458b0b5d8810b58",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram.csv": "c724d2cc2f5a57ba93c3ba1d6366bdde275c2a3e844ff73219510b8bf41a1c6a",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram.csv": "83980027cd944e685096ed071247471fc480842a59c3c10d2f8930ae5bd36f26",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram.csv": "3d4d203751d0b5b562c0dc041e45671085725a4ae8b269671af7094ea22f0800"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2_3gram/part-0.parquet --family morphological/morph_prs_ps/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_ps_1_2_3gram",
+    "started": "2026-09-17T20:29:13.104507+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 90.604904,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2_3gram_psalm/part-0.parquet": "558db55086607fe446427583d95816e5fe7f3aac6dba60fe2a3771ae967b100c",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram_psalm.csv": "cd80a726df826958d00b053b004ba77bc187b52eeace7489d4d5acaa7608913d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram_psalm.csv": "ef0bd69b6edc3628068b511f563f6d3ee0a09ab7f8fa43f2d35f5f1e42333c86",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram_psalm.csv": "f6643d22d2a8d8e0b68a402cc8822cdbddc30e9c098eb8bd97751f65c3e36b69"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_prs_ps/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_ps_1_2_3gram_psalm",
+    "started": "2026-09-17T20:29:56.662607+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 76.672045,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2gram/part-0.parquet": "8f2a294fe80619016f66875846b5db9ca8b4ac3e87a3147e162bb9da73483ef1",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram.csv": "5d5647ae95eaf9369e3e6c9d42457c8fcb483b7b56c3f06ab877afc91847e13f",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram.csv": "bd2c3f826d57510959ace683315aabc071bafb47615fbb5764285a7c73fdd8aa",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram.csv": "3d039c8b123174e80511e6d1eb790baf5b49743e07573e7b23f2e1efbab0f4e4"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2gram/part-0.parquet --family morphological/morph_prs_ps/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_ps_1_2gram",
+    "started": "2026-09-17T20:27:36.099200+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_prs_ps_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 93.846656,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2gram_psalm/part-0.parquet": "da8a5e5f4c871fdbca12794a21ee79c94c7b37c5bfed90ecb1a1b7660bc60899",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram_psalm.csv": "6783e1cdbecc89b640a1f2141df24fb591152801a757a18cc656f0fa0c0f723c",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram_psalm.csv": "c772c40af7a3e224235969b47e497f1e66a92f2078eb1496c9f7052c890cc1eb",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram_psalm.csv": "44faece56ca5758fad943fdd3df7d9143ab625abb8b89f0994aaa431a2e73281"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_prs_ps/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_prs_ps/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_prs_ps_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_prs_ps_1_2gram_psalm",
+    "started": "2026-09-17T20:27:36.536539+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_ps_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_ps_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 93.27669,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2_3gram/part-0.parquet": "468bc8ac7f1b6b30fad05c9d8273b5bf3a571c907638b202cffac5dd7c87a7e6",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram.csv": "2e0cc78b9ee6335684081a92c9c71367c0ac641167f0e934d07ab30d8c58be4f",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram.csv": "5ca43c1744ab4c556c3feed5efe7f2961ea7c22c86a1efa643d23823f95f9853",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram.csv": "4e6473bd969a6ed5f5ef6ffd12883a6fcefff5c60eb7999419d53b5a0cc74153"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2_3gram/part-0.parquet --family morphological/morph_ps/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_ps_1_2_3gram",
+    "started": "2026-09-17T20:29:28.650462+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_ps_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_ps_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 99.746323,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2_3gram_psalm/part-0.parquet": "45c74333b505ebddc5067e5140152309b4e2210a8b31df578df7a49288463a87",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram_psalm.csv": "bedd0b1d222af332f79782be2b357a422c321afc9986b64084ffd29717419048",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram_psalm.csv": "3b7a7ba3ea20641a28942348793e15d5885c8159a88c46998d1fd832a6dba69d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram_psalm.csv": "35501c699808e36df928fe4f9f1a5065bf297065f24f4f1722fb8f717eff25f7"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_ps/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_ps_1_2_3gram_psalm",
+    "started": "2026-09-17T20:26:19.791412+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_ps_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_ps_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 89.027004,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2gram/part-0.parquet": "1cc31832894ec6989d9fcf736105eabb9d048ddb73cacdc3118b9238620c19b5",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2gram.csv": "454711377125367070b66b8d676c2533ff135de7a4527ecee6c846b8c27c9d6f",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2gram.csv": "fc7b10303129d859e1ade80694a86c62957cd92ea0ee2749f29199827376aa64",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2gram.csv": "a9d4f6bf0de248fb08d69985c3853f2d937aea9d618b36858a0451a5c50ecb01"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2gram/part-0.parquet --family morphological/morph_ps/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_ps_1_2gram",
+    "started": "2026-09-17T20:25:15.718309+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_ps_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_ps_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 82.163571,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2gram_psalm/part-0.parquet": "40f3528527f1c5351bed166605a729662c9d8b66abc533a8f17a3a6a8fb4b156",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2gram_psalm.csv": "24fe08e63b37d7dfb016200c08e3019ff1c4879dfa915e45d90d6c1d79c2ac85",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2gram_psalm.csv": "914c1351b514b4c3488866c83fcfad1102906214aefc746ab7aa7ea911005c3b",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2gram_psalm.csv": "dea10670ff857489b5b89c6d58175b6acffb10d92aa772f24cba22e94dd0e7f7"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_ps/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_ps/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_ps_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_ps_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_ps_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_ps_1_2gram_psalm",
+    "started": "2026-09-17T20:30:59.954833+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_signature_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_signature_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 134.035391,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2_3gram/part-0.parquet": "99fd945dee7a96d9f4b914a5ac7c9d9a9b3bc22ea13dcdd258a50c4fcfbf6c3f",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram.csv": "9b57b43c6801b89ad522fb5b75ab245b873ad44fcec7e64d63092f8bcd216d61",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram.csv": "16f3205005f1eab640929f87441c901a45cf5cfbdef3291dcfefd5428a56f739",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram.csv": "e69bb3f50305eb78a61a10603f8327cd08c9988caa87b6ef8641116769501893"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2_3gram/part-0.parquet --family morphological/morph_signature/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_signature_1_2_3gram",
+    "started": "2026-09-17T20:21:45.169391+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_signature_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_signature_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 108.448785,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2_3gram_psalm/part-0.parquet": "94f198ac7cb769f65ab56fdf5f854b078c3a08172b1ea781f068c29fc5b3d215",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram_psalm.csv": "7647f0f4e6c745bf39eb921244b3bfae0cff2c58bc869045845cd6551d8e05eb",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram_psalm.csv": "ec6bc20d768a7f7e9190b8e5efb1fdd99bdadf52ae3cc359397982acf3efa083",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram_psalm.csv": "d48089e2d89d3bacdd637ae6d7632f6c1cf3d0bc158fa86e94cceed0bb9e4709"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_signature/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_signature_1_2_3gram_psalm",
+    "started": "2026-09-17T20:31:04.198761+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_signature_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_signature_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 114.60406,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2gram/part-0.parquet": "678c93b50a88ea0b23aff3c1c16d8201c0169552dc7ee17ee009956f74812bef",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2gram.csv": "e5e97ec609ac6f6dfd5469c136016b7ad7b415d877eec54be31636a88e3cbf24",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2gram.csv": "30e6568ac510d68300abf5bad4ae8e303c1dd7a3271b6426a86fe9c4ff00d545",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2gram.csv": "5b477fa1657a9eb078cf468841427b0dd6a7d23eff1acf055aecebb1f01fe7ca"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2gram/part-0.parquet --family morphological/morph_signature/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_signature_1_2gram",
+    "started": "2026-09-17T20:28:35.185359+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_signature_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_signature_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 103.212031,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2gram_psalm/part-0.parquet": "6cb2a3523fb8718da3bd99c245f86e8e6ad8973cc064b1055984603f53f008c2",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2gram_psalm.csv": "11cf046f1c7dc9a34fde0ee7e30346b05e4b13b6d18f1ace7388bf0979763cc7",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2gram_psalm.csv": "9e6bba68ef220233cce5b162d172d1a4703ee789835bd18b4c3b761483558306",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2gram_psalm.csv": "b951ecfbef2524ba31ea675a78af8500658c54660a1addd779ee0e8ee6f97f44"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_signature/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_signature/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_signature_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_signature_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_signature_1_2gram_psalm",
+    "started": "2026-09-17T20:27:20.652143+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_st_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_st_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 101.636066,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2_3gram/part-0.parquet": "b25f3e0fb0b0804a59e0577751fdebe3b1c44956b13159560fc9d505fb0ca0ff",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram.csv": "4a3de13a5ddfcc6b0e26ce653c86dfb7cde0cb7828e82b7daea7c6dea10321f7",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram.csv": "42e46a53e7190aa579863dc1cfbda2666ead0f028b11a1893ea62bf72ffb290d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram.csv": "c06e7d063f26f1a3a14ee16846261df9a5fa8d51447742f25d00f6fb1daf3da6"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2_3gram/part-0.parquet --family morphological/morph_st/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_st_1_2_3gram",
+    "started": "2026-09-17T20:25:46.898191+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_st_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_st_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 86.918805,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2_3gram_psalm/part-0.parquet": "70204adc1f7fdb3399962c20ac219acc49ce313ece84b58679a6b69303f1bffc",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram_psalm.csv": "25c93b8554de102de75ac915d28b8ea407b775ae773056475ed20f4f82148f48",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram_psalm.csv": "9d4d4575416d67ab3866c95f16bacd9c0c0d143f0c1e6da8f25df65b930f1879",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram_psalm.csv": "c5b829978cdb457a23a9dd55d2e433507e4d778f235d8fce3e9c4e5380515a3a"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_st/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_st_1_2_3gram_psalm",
+    "started": "2026-09-17T20:29:27.559442+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_st_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_st_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 91.670257,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2gram/part-0.parquet": "74b938761b899f8d13beb353c7586a9b0460c1431e08af5cb63fbce028983597",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2gram.csv": "02ca4841962e1446341be1602616d31f135132e6865a838af297e01872e36d32",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2gram.csv": "0463a72170bf91d86fc6691fe1c6531a5475b87828dfdf27d0bd67cd0104c3a2",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2gram.csv": "59f2f68864aaf0858e048612c07bac2a4030f83a38460deb1d8ac196829e1bde"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2gram/part-0.parquet --family morphological/morph_st/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_st_1_2gram",
+    "started": "2026-09-17T20:25:53.839210+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_st_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_st_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 82.319642,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2gram_psalm/part-0.parquet": "b5146174f7c15e58a6df6be8014d7913db2003b08ae595d5ccbf676dd0645e49",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2gram_psalm.csv": "8f46a34245a66ed48aa6667221a24b78d2289a7e741f4f29c197f3c88cc61b18",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2gram_psalm.csv": "c170e44ac08fc558388499c2535f30c3814a91562aa595c2e1b6ecbb8ebf8d81",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2gram_psalm.csv": "8944e71e5f078c6809a39bdb62f1e963a0f6c953b105f6cb3ac263256544ce68"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_st/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_st/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_st_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_st_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_st_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_st_1_2gram_psalm",
+    "started": "2026-09-17T20:29:45.660670+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_suffix_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_suffix_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 129.465906,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2_3gram/part-0.parquet": "5735a4b685b855b03911d3f278c83863a9e1e6653758b5450a8e784653c4e1ae",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram.csv": "0467bf64340eedf9e8df35b36811a9490d950fb5dd9c4285c3b6ba0c32c03617",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram.csv": "092b958fdb7994088d7208ded12ed0b9dfb814da12f6ae594890fc198f4ec609",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram.csv": "32e6b2717c723012280e373e120deeff0f93df79a6106e4a0bcdc1821392e837"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2_3gram/part-0.parquet --family morphological/morph_suffix/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_suffix_1_2_3gram",
+    "started": "2026-09-17T20:29:39.902391+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_suffix_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_suffix_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 89.559129,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2_3gram_psalm/part-0.parquet": "e19a3459498a25737170752e1c872a3905750191481be200f1ed75beb9a0b36d",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram_psalm.csv": "df51b56e3a395e2a08d12743344af9b1f51e22f386daaba37a6270946e5a3e3d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram_psalm.csv": "c07492a466828ff3bbcd860a495e78b6d31533d8e9dc82a52fc093f8d01a17d8",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram_psalm.csv": "4a353dc8071a189f559d658bf8c50e8296f0bf9ff3f10bd01a2fdbbe28d6cc32"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_suffix/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_suffix_1_2_3gram_psalm",
+    "started": "2026-09-17T20:30:59.049156+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_suffix_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_suffix_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 120.608923,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2gram/part-0.parquet": "059cbd9706328aae68f82758bf59848863439d86b21259f6a2d9efc7d9737b76",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram.csv": "da640d0c9cc34079cee3f9b410ccc7757f4b443e220dc59603baed9d5fdc5a59",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram.csv": "fcd2e1a092c2bfd46ae70bd39ca325595a9f037447bb08fa5ca7cd4d62aa6a4d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram.csv": "48a61936dcb93994a2b41c23e3e1e40716984df90620161a86b09e855faa32a0"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2gram/part-0.parquet --family morphological/morph_suffix/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_suffix_1_2gram",
+    "started": "2026-09-17T20:25:38.974525+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_suffix_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_suffix_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 123.938943,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2gram_psalm/part-0.parquet": "4ac818dab5221f26f8b97a63ac34eb1b2d96eb60f3e01bcaaffd7fe4411486b6",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram_psalm.csv": "d5d0cf0b84e594e29c2835684ef6f4cfe6396cb54f02bbf3b6d48cff1952dd4e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram_psalm.csv": "e91271baaa41e758412958e9fa798207b290b40131aea37b0f9a232ab6e0c3da",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram_psalm.csv": "83259ea4ab2bce3998953482534fee324b3a11eb27e8435e626266e8d04e9aae"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_suffix/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_suffix_1_2gram_psalm",
+    "started": "2026-09-17T20:23:33.017861+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_suffix_posmean": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_suffix_posmean",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 66.936353,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=posmean/part-0.parquet": "8cd18f848a48e59e7dd633125746529d49499bf35f4ea5a398c12a8916367bc3",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_posmean.csv": "a2824711097e5a0eb86b9330853365bb7e4e6761682212f9a968f1b2bdde1670",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_posmean.csv": "46d8e727c55d4459b80144afa8dc472ff40f06153226016864f4bf0f7c1ae34a",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_posmean.csv": "b1cb8e75be2ae5ff08eaeb2cc3bf2b4fd1759ae58ef7bc6d824b871395d73bbf"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_suffix/construction=posmean/part-0.parquet --family morphological/morph_suffix/posmean --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_suffix_posmean.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_suffix_posmean.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_suffix_posmean.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_suffix_posmean",
+    "started": "2026-09-17T20:24:56.710152+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vs_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vs_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 117.822598,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2_3gram/part-0.parquet": "ce9e0d63c1bcc2b78fd75ed8918c00f3aed1455a9e6b7e45881063f3103812bc",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram.csv": "7b10d42eedd7abf7333915231ba4a77e9d4d139fda95ff9a3eaf588083c19cc0",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram.csv": "c1f91ad16bed1d16532343494e70ea2bfb2cc46739de4d37b903356da84bceee",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram.csv": "8ae0f861169c876067b8988a4e7b8286ecf01acd3ba018a20140f317c7539ea1"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2_3gram/part-0.parquet --family morphological/morph_vs/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vs_1_2_3gram",
+    "started": "2026-09-17T20:30:51.650709+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vs_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vs_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 104.86813,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2_3gram_psalm/part-0.parquet": "3cfbedad493a9bf6bf24bacca2b2a71ae06598f1091ae155e1c2511cc603c119",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram_psalm.csv": "939b76f468adc5c0acc8e495fddcc4a021386a06b182b01b124fe89501847fca",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram_psalm.csv": "707c596f8db29b96fd857416472f3d5bf71003da14bb0c0c43ec14f078f48a13",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram_psalm.csv": "865f4f02947cfef0b0f0bd5674d50605ca80b82bd485d80261fa477281b001de"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_vs/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vs_1_2_3gram_psalm",
+    "started": "2026-09-17T20:23:33.791902+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vs_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vs_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 97.090813,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2gram/part-0.parquet": "9acfc0eee81aad48b94b4d838ceec19a16e093e972748d0d36ea02f33915a758",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2gram.csv": "8f36f744b145195132499adf020ee2f5dcb51ef7c7ff61e00587dc0da87d371b",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2gram.csv": "5e11e10406aa6aeff1aa880544a73d1600144657902edefd79e0747e2b2bcbaf",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2gram.csv": "47aa53186c20bfb927c91d2561128944ee9e203cb147b1c61dec7008cf3d7f17"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2gram/part-0.parquet --family morphological/morph_vs/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vs_1_2gram",
+    "started": "2026-09-17T20:30:40.893707+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vs_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vs_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 83.805245,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2gram_psalm/part-0.parquet": "128e794f45f15a170a2a46dbe14ba5dd5c4514082faf1d766f9527830b1d39cf",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2gram_psalm.csv": "696cd3f53fc6391244941b99e0c1bb169878b4de49ed527a95bdbd3d4f03a70b",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2gram_psalm.csv": "41fa3696394e6d28ea98af74d1c2418c8708d560c973c56a906764e6def17f4e",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2gram_psalm.csv": "6b42cc3a24508b5977562754ab55b84c38ca162a0b9fcb4696f19c3208726ef0"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vs/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_vs/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vs_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vs_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vs_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vs_1_2gram_psalm",
+    "started": "2026-09-17T20:27:00.252764+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vt_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vt_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 112.687155,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2_3gram/part-0.parquet": "46c6ad2e863a29fb8140744b511b833bef248b49d9533f886a59cb1fd722c147",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram.csv": "cca3c7d061e571d34d37377ed447b4ff112b28d2b05d52878e800325a7b5f381",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram.csv": "cf8a07c96e4d7d5b5f8f0eba04f8c666c6fc86d9a1cadaadee4ef582251670cf",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram.csv": "89e3ab5499f6e796ef70a68355d7e51a3fb5d7229be4a5a76d4cb1c2c4c15531"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2_3gram/part-0.parquet --family morphological/morph_vt/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vt_1_2_3gram",
+    "started": "2026-09-17T20:21:46.458765+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vt_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vt_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 96.001469,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2_3gram_psalm/part-0.parquet": "926f0d20e918671954d33b969f7690e1f65b1de1fe130863d8160e9c61c9460c",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram_psalm.csv": "d3924f492e74cf90d685e94b65cdd317e3d7e2277b1c9b4bcacc8ab563fe13a6",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram_psalm.csv": "d374aa26accddbd4f5662c24c8464560d565dcb72537f2ced50fdd6054e76394",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram_psalm.csv": "8362fd5273025f28107d52e60280ecbef023ba4795185168a1c8c4099f27b7ac"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2_3gram_psalm/part-0.parquet --family morphological/morph_vt/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vt_1_2_3gram_psalm",
+    "started": "2026-09-17T20:26:38.330037+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vt_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vt_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 90.593854,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2gram/part-0.parquet": "06fdf78de76f7e4baf6deb02b9b8cd0c69c47bd1d33acbe11b96c7d0b6de7146",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2gram.csv": "4f81288a194b5f1542b91bd0d82454405a451b59b56cb3d30b37bc5f4068fa8d",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2gram.csv": "ba9f75b97f9c88ebb972eaf034e2403b84d3c44fe6bb06b187b69ed83a293c46",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2gram.csv": "dd9d23a246c4de9415bd0cab300dc588e95941673762939c5008a184650a535a"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2gram/part-0.parquet --family morphological/morph_vt/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vt_1_2gram",
+    "started": "2026-09-17T20:23:27.223680+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.morph_vt_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.morph_vt_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 75.975089,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2gram_psalm/part-0.parquet": "e551a4cbe759b682c4f5e535f38841967a2c9f1dadaa4f081910642cb42bf533",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2gram_psalm.csv": "67d4fb8a072592b332e1d8c73420d620c3dcd7bece3352819c5db49c14402479",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2gram_psalm.csv": "ceada6424aab6cb69eec2258a4ca5562e018186709d594540553686ba20633b7",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2gram_psalm.csv": "21c03db0e9fca47254968438a6359c050818eddb14c491c3b99656a4a205cccb"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=morph_vt/construction=1_2gram_psalm/part-0.parquet --family morphological/morph_vt/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/morph_vt_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/morph_vt_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/morph_vt_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_morph_vt_1_2gram_psalm",
+    "started": "2026-09-17T20:25:09.493089+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.sp_1_2_3gram": {
+    "cell": "genre.morphological.gunkel.shuffle.sp_1_2_3gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 122.908286,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2_3gram/part-0.parquet": "61ff81f33f334fc2d9077406a0f5415d82dacfdfdc1e7a77c8dee2fba00501a4",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2_3gram.csv": "969f8fbf7e72e57aeb33b566b3da4b6399016680f02af0aa6ce4f4d20ecbf2af",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2_3gram.csv": "19fc1b2e475f11978c57f7ce9a701fe0e5dd93750341225f03038acda6ee1266",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2_3gram.csv": "bea72d7eef49216c2f24b4f504fb3ab3d86fdee6db1cd8bb9cda4d44b2d7b9c7"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2_3gram/part-0.parquet --family morphological/sp/1_2_3gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2_3gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2_3gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_sp_1_2_3gram",
+    "started": "2026-09-17T20:29:14.409822+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.sp_1_2_3gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.sp_1_2_3gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 130.709363,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2_3gram_psalm/part-0.parquet": "8c58983411ad351e8889116837c30dfec87397b36e9e0dbfd151de55252ea30e",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2_3gram_psalm.csv": "6778ac36217b4b8f423c96d143c8a92f1db7e2ea0f460def5f45378fa44cbe58",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2_3gram_psalm.csv": "16869debc13e94bbc2018c28990d5586951c659202e12ae479bba11d513e30f4",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2_3gram_psalm.csv": "6bdedb209d38393c588ef337de4d627777667219a161ef8123773a43e8475d72"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2_3gram_psalm/part-0.parquet --family morphological/sp/1_2_3gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2_3gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2_3gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_sp_1_2_3gram_psalm",
+    "started": "2026-09-17T20:23:51.727712+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.sp_1_2gram": {
+    "cell": "genre.morphological.gunkel.shuffle.sp_1_2gram",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 82.31166,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2gram/part-0.parquet": "717bc88847f5188045a93fa8e840a089d2309e14862ba4957864173793c4066c",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2gram.csv": "5cd43aa5620ecbf6259edb06c3ff1f792ae24c136236effd0bb88c42ba669b59",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2gram.csv": "32ed47fe3dd785829734d6a8e7e077eb15b2be7b284f67fc7e99444f560e1631",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2gram.csv": "a498da00982101d003d22befd875adecd8528bde27b7d79ea241a13d240c5ded"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2gram/part-0.parquet --family morphological/sp/1_2gram --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2gram.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2gram.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_sp_1_2gram",
+    "started": "2026-09-17T20:29:20.743641+00:00"
+  },
+  "genre.morphological.gunkel.shuffle.sp_1_2gram_psalm": {
+    "cell": "genre.morphological.gunkel.shuffle.sp_1_2gram_psalm",
+    "code_hash": "10951e3bff090d1b1def8752935fddfd3e9c60dfe2f08f5a18ae181cd668cf5a",
+    "duration_s": 80.192064,
+    "inputs": {
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_atom_typ_external_support.csv": "ef46e3865e7ff4f18b3ed52b98fd247ded45d25ecc749f8329f94501f77b6ce2",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_rela_external_support.csv": "dda30522c06fe7c0d8508d676acb3ab9ee8fc1e39b8c6362afb1478b7138149c",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_signature_external_support.csv": "7895e44092931427bc428bdd0d3f780521a7844f16e8fbaaf3369c906f32bbf9",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/clause_typ_external_support.csv": "1cc6cb85e78035556b9c72557458949a8847476f78d4d1f705049b5bfbc05521",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/morph_signature_external_support.csv": "9a1538dec6c886edf805b629a422b323b1d82e59286592473d93db830de24f2a",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_full_signature_external_support.csv": "338405b5ce3524efff2541dbfc3993fb0c61bddc5b23410e878e1ef5dc4d1b55",
+      "/home/ubuntu/tehillim/tehillim-embeddings/config/phrase_signature_external_support.csv": "7676097bf68b060a0f67fcb19be8169bc192ac3407d4b35ad40906a40153d0fd",
+      "/home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2gram_psalm/part-0.parquet": "77f2a91ac8dd0b3d423bef6439dfb5e298a293b491978e27c1bffa4e8c94e252",
+      "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv": "160ae8bc3fd47b12e21af9cf72ee276dc731f1b0587d8c3a81698d3d9937b2b4"
+    },
+    "outputs": {
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2gram_psalm.csv": "e7989ae8b54252535b6dda58a9f52905097f6bf9398804d5b01752dc523ecafd",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2gram_psalm.csv": "227a094413b9f3497039f0532e4a452bf02ec257d45c9291cd2645e96a3e5c2f",
+      "/home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2gram_psalm.csv": "8387850f91237a5b466fb1462e48965b7edbc062d9ec85fe7bfb3ee138fb9690"
+    },
+    "parameters": {
+      "args": "/home/ubuntu/tehillim/tehillim-gunkel/tables/gunkel.csv --taxonomy gunkel --unit song --unit song_component --unit song_component_motif /home/ubuntu/tehillim/tehillim-embeddings/data/corpus=bhsa/unit=half_verse/domain=morphological/feature=sp/construction=1_2gram_psalm/part-0.parquet --family morphological/sp/1_2gram_psalm --config-root /home/ubuntu/tehillim/tehillim-embeddings/config --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song/domain=morphological/stage=shuffle_control/sp_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component/domain=morphological/stage=shuffle_control/sp_1_2gram_psalm.csv --output /home/ubuntu/tehillim/tehillim-data/analysis=benchmark/benchmark=genre/taxonomy=gunkel/unit=song_component_motif/domain=morphological/stage=shuffle_control/sp_1_2gram_psalm.csv --workers 8"
+    },
+    "repository_revision": "816099dd04fb411b2d8fd2cdfa406da7ab10d0ec",
+    "rule": "cell__genre_morphological_gunkel_shuffle_sp_1_2gram_psalm",
+    "started": "2026-09-17T20:30:20.025826+00:00"
+  }
+}
